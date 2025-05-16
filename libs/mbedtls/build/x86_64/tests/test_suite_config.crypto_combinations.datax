@@ -1,0 +1,8 @@
+Config: ECC: Weierstrass curves only
+depends_on:0:1
+0
+
+Config: ECC: Montgomery curves only
+depends_on:2:3
+0
+

@@ -1,0 +1,8 @@
+Config: PSA_WANT_ALG_ECDSA without PSA_WANT_ALG_DETERMINISTIC_ECDSA
+depends_on:0:1
+0
+
+Config: PSA_WANT_ALG_DETERMINSTIC_ECDSA without PSA_WANT_ALG_ECDSA
+depends_on:2:3
+0
+

@@ -1,0 +1,15 @@
+GCM - Invalid parameters
+9
+
+GCM - Invalid IV length
+depends_on:0:1
+11
+
+GCM - Additional data length too long
+depends_on:0:1
+12
+
+GCM - Input length too long
+depends_on:0:1
+13
+

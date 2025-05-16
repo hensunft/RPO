@@ -1,0 +1,1619 @@
+PK invalid parameters
+2
+
+PK valid parameters
+3
+
+PK write valid parameters
+depends_on:0
+4:hex:"308204a20201000282010100a9021f3d406ad555538bfd36ee82652e15615e89bfb8e84590dbee881652d3f143504796125964876bfd2be046f973beddcf92e1915bed66a06f8929794580d0836ad54143775f397c09044782b0573970eda3ec15191ea8330847c10542a9fd4cc3b4dfdd061f4d1051406773130f40f86d81255f0ab153c6307e1539acf95aee7f929ea6055be7139785b52392d9d42406d50925897507dda61a8f3f0919bead652c64eb959bdcfe415e17a6da6c5b69cc02ba142c16249c4adccdd0f7526773f12da023fd7ef431ca2d70ca890b04db2ea64f706e9ecebd5889e253599e6e5a9265e2883f0c9419a3dde5e89d9513ed29dbab7012dc5aca6b17ab528254b10203010001028201001689f5e89142ae18a6ffb0513715a4b0b4a13b9e5b3729a2bd62d738c6e15cea7bf3a4d85ab2193a0628c9452bb1f0c1af8b132789df1c95e72778bf5330f5b0d915d242d5e0818e85001ed5fa93d1ce13455deb0a15438562e8e3c8d60ec1e4c9ebff9f2b36b9cde9332cc79f0d17a7ae79cc1353cd75409ad9b4b6d7ee3d82af6f3207656cf2ac98947c15c398db0cebf8dc3eef5398269480cdd09411b960273ae3f364da09af849f24aa87346c58618ea91d9d6cd1d3932c80dbfc1f0a4166a9036911999ca27761079f0ce02db02c1c909ff9b4278578d7bb1b54b2b7082fc9e864b6b394e331c0d11a9a68255565b6dd477f4119c5809839520700711102818100d7db987ad86de6a9b0749fb5da80bacde3bebd72dcc83f60a27db74f927ac3661386577bfce5b4a00ad024682401d6aad29713c8e223b53415305ca07559821099b187fdd1bad3dc4dec9da96f5fa6128331e8f7d89f1e1a788698d1a27256dc7cd392f04e531a9e38e7265bf4fd7eec01e7835e9b1a0dd8923e440381be1c2702818100c87025fff7a493c623404966fbc8b32ed164ca620ad1a0ad11ef42fd12118456017856a8b42e5d4ad36104e9dc9f8a2f3003c3957ffddb20e2f4e3fc3cf2cdddae01f57a56de4fd24b91ab6d3e5cc0e8af0473659594a6bbfdaacf958f19c8d508eac12d8977616af6877106288093d37904a139220c1bc278ea56edc086976702818043e708685c7cf5fa9b4f948e1856366d5e1f3a694f9a8e954f884c89f3823ac5798ee12657bfcaba2dac9c47464c6dc2fecc17a531be19da706fee336bb6e47b645dbc71d3eff9856bddeb1ac9b644ffbdd58d7ba9e1240f1faaf797ba8a4d58becbaf85789e1bd979fcfccc209d3db7f0416bc9eef09b3a6d86b8ce8199d4310281804f4b86ccffe49d0d8ace98fb63ea9f708b284ba483d130b6a75cb76cb4e4372d6b41774f20912319420ca4cbfc1b25a8cb5f01d6381f6ebc50ed3ef08010327f5ba2acc1ac7220b3fa6f7399314db2879b0db0b5647abd87abb01295815a5b086491b2c0d81c616ed67ef8a8ce0727f446711d7323d4147b5828a52143c43b4b028180540756beba83c20a0bda11d6dec706a71744ff28090cec079dffb507d82828038fe657f61496a20317f779cb683ce8196c29a6fe28839a282eef4de57773be56808b0c3e2ac7747e2b200b2fbf20b55258cd24622a1ce0099de098ab0855106ae087f08b0c8c346d81619400c1b4838e33ed9ff90f05db8fccf8fb7ab881ca12"
+
+PK utils: RSA 1024-bit
+depends_on:0
+5:exp:0:int:1024:int:1024:exp:1:char*:"RSA"
+
+PK utils: RSA 1026-bits
+depends_on:0
+5:exp:0:int:1026:int:1026:exp:2:char*:"RSA"
+
+PK utils: RSA 1028-bits
+depends_on:0
+5:exp:0:int:1028:int:1028:exp:3:char*:"RSA"
+
+PK utils: RSA 1030-bits
+depends_on:0
+5:exp:0:int:1030:int:1030:exp:4:char*:"RSA"
+
+PK utils: ECKEY SECP192R1
+depends_on:1:2
+5:exp:5:exp:6:int:192:int:24:char*:"EC"
+
+PK utils: ECKEY_DH SECP192R1
+depends_on:1:2
+5:exp:7:exp:6:int:192:int:24:char*:"EC_DH"
+
+PK utils: ECKEY_DH Curve25519
+depends_on:1:3
+5:exp:7:exp:8:int:255:int:32:char*:"EC_DH"
+
+PK utils: ECKEY_DH Curve448
+depends_on:1:4
+5:exp:7:exp:9:int:448:int:56:char*:"EC_DH"
+
+PK utils: ECDSA SECP192R1
+depends_on:5:2
+5:exp:10:exp:6:int:192:int:24:char*:"ECDSA"
+
+PK utils: ECDSA SECP256R1
+depends_on:5:6
+5:exp:10:exp:11:int:256:int:32:char*:"ECDSA"
+
+PK utils: ECDSA SECP384R1
+depends_on:5:7
+5:exp:10:exp:12:int:384:int:48:char*:"ECDSA"
+
+PK utils: ECDSA SECP521R1
+depends_on:5:8
+5:exp:10:exp:13:int:521:int:66:char*:"ECDSA"
+
+PK PSA utilities: ECDSA setup/free, info functions, unsupported operations
+depends_on:5:9:6
+0:int:0
+
+PK PSA utilities: RSA setup/free, info functions, unsupported operations
+depends_on:0
+0:int:1
+
+PK can do ext: ECDSA(ANY)/NONE, invalid check STREAM_CIPHER
+depends_on:9:6
+1:int:1:exp:14:exp:15:exp:16:exp:17:int:256:exp:18:exp:15:int:0
+
+PK can do ext: ECDSA(ANY)/NONE, invalid check RSA_PKCS1V15_SIGN(SHA256)
+depends_on:9:6
+1:int:1:exp:14:exp:15:exp:16:exp:17:int:256:exp:19:exp:15:int:0
+
+PK can do ext: ECDSA(ANY)/NONE, invalid check RSA_PKCS1V15_CRYPT
+depends_on:9:6
+1:int:1:exp:14:exp:15:exp:16:exp:17:int:256:exp:20:exp:15:int:0
+
+PK can do ext: ECDSA(ANY)/NONE, invalid check RSA_PSS(SHA256)
+depends_on:9:6
+1:int:1:exp:14:exp:15:exp:16:exp:17:int:256:exp:21:exp:15:int:0
+
+PK can do ext: ECDSA(ANY)/NONE, invalid check ECDH
+depends_on:9:6
+1:int:1:exp:14:exp:15:exp:16:exp:17:int:256:exp:22:exp:15:int:0
+
+PK can do ext: ECDSA(ANY)/NONE, check ECDSA(SHA256)
+depends_on:9:6
+1:int:1:exp:14:exp:15:exp:16:exp:17:int:256:exp:23:exp:15:int:1
+
+PK can do ext: ECDSA(SHA256)/NONE, check ECDSA(SHA256)
+depends_on:9:6
+1:int:1:exp:14:exp:15:exp:23:exp:17:int:256:exp:23:exp:15:int:1
+
+PK can do ext: NONE/ECDSA(ANY_HASH), check ECDSA(SHA256)
+depends_on:9:6
+1:int:1:exp:14:exp:15:exp:17:exp:16:int:256:exp:23:exp:15:int:1
+
+PK can do ext: NONE/ECDSA(SHA256), check ECDSA(SHA256)
+depends_on:9:6
+1:int:1:exp:14:exp:15:exp:17:exp:23:int:256:exp:23:exp:15:int:1
+
+PK can do ext: ECDSA(SHA256)/NONE, invalid check ECDSA(ANY)
+depends_on:9:6
+1:int:1:exp:14:exp:15:exp:23:exp:17:int:256:exp:16:exp:15:int:0
+
+PK can do ext: ECDSA(SHA1)/NONE, invalid check ECDSA(SHA256)
+depends_on:9:6
+1:int:1:exp:14:exp:15:exp:24:exp:17:int:256:exp:23:exp:15:int:0
+
+PK can do ext: ECDH/NONE, invalid check STREAM_CIPHER
+depends_on:9:6
+1:int:1:exp:14:exp:25:exp:22:exp:17:int:256:exp:18:exp:25:int:0
+
+PK can do ext: ECDH/NONE, invalid check RSA_PKCS1V15_SIGN(SHA256)
+depends_on:9:6
+1:int:1:exp:14:exp:25:exp:22:exp:17:int:256:exp:19:exp:25:int:0
+
+PK can do ext: ECDH/NONE, invalid check RSA_PKCS1V15_CRYPT
+depends_on:9:6
+1:int:1:exp:14:exp:25:exp:22:exp:17:int:256:exp:20:exp:25:int:0
+
+PK can do ext: ECDH/NONE, invalid check RSA_PSS(SHA256)
+depends_on:9:6
+1:int:1:exp:14:exp:25:exp:22:exp:17:int:256:exp:21:exp:25:int:0
+
+PK can do ext: ECDH/NONE, invalid check ECDSA(SHA256)
+depends_on:9:6
+1:int:1:exp:14:exp:25:exp:22:exp:17:int:256:exp:23:exp:25:int:0
+
+PK can do ext: ECDH/NONE, check ECDH
+depends_on:9:6
+1:int:1:exp:14:exp:25:exp:22:exp:17:int:256:exp:22:exp:25:int:1
+
+PK can do ext: ECDH/ECDSA(ANY), check ECDH+SIGN
+depends_on:9:6
+1:int:1:exp:14:exp:26:exp:22:exp:16:int:256:exp:22:exp:15:int:1
+
+PK can do ext: ECDH/ECDSA(ANY), check ECDH+DERIVE
+depends_on:9:6
+1:int:1:exp:14:exp:26:exp:22:exp:16:int:256:exp:22:exp:25:int:1
+
+PK can do ext: ECDH/ECDSA(ANY), check ECDH+DERIVE|SIGN
+depends_on:9:6
+1:int:1:exp:14:exp:26:exp:22:exp:16:int:256:exp:22:exp:26:int:1
+
+PK can do ext: ECDH/ECDSA(ANY), check ECDSA(SHA256)+DERIVE|SIGN
+depends_on:9:6
+1:int:1:exp:14:exp:26:exp:22:exp:16:int:256:exp:23:exp:26:int:1
+
+PK can do ext: ECDH/ECDSA(ANY), check ECDSA(SHA256)+SIGN
+depends_on:9:6
+1:int:1:exp:14:exp:26:exp:22:exp:16:int:256:exp:23:exp:15:int:1
+
+PK can do ext: ECDH/ECDSA(ANY), check ECDSA(SHA256)+DERIVE
+depends_on:9:6
+1:int:1:exp:14:exp:26:exp:22:exp:16:int:256:exp:23:exp:25:int:1
+
+PK can do ext: RSA_PKCS1V15_SIGN(ANY)/NONE, check not allowed COPY usage
+depends_on:0
+1:int:1:exp:27:exp:15:exp:28:exp:17:int:1024:exp:19:exp:29:int:0
+
+PK can do ext: RSA_PKCS1V15_SIGN(ANY)/NONE, invalid check STREAM_CIPHER
+depends_on:0
+1:int:1:exp:27:exp:15:exp:28:exp:17:int:1024:exp:18:exp:15:int:0
+
+PK can do ext: RSA_PKCS1V15_SIGN(ANY)/NONE, invalid check ECDSA(SHA256)
+depends_on:0
+1:int:1:exp:27:exp:15:exp:28:exp:17:int:1024:exp:23:exp:15:int:0
+
+PK can do ext: RSA_PKCS1V15_SIGN(ANY)/NONE, invalid check ECDH
+depends_on:0
+1:int:1:exp:27:exp:15:exp:28:exp:17:int:1024:exp:22:exp:15:int:0
+
+PK can do ext: RSA_PKCS1V15_SIGN(ANY)/NONE, invalid check RSA_PKCS1V15_CRYPT
+depends_on:0
+1:int:1:exp:27:exp:15:exp:28:exp:17:int:1024:exp:20:exp:15:int:0
+
+PK can do ext: RSA_PKCS1V15_SIGN(ANY)/NONE, invalid check RSA_PSS(SHA256)
+depends_on:0
+1:int:1:exp:27:exp:15:exp:28:exp:17:int:1024:exp:21:exp:15:int:0
+
+PK can do ext: RSA_PKCS1V15_SIGN(ANY)/NONE, check RSA_PKCS1V15_SIGN(SHA256)
+depends_on:0
+1:int:1:exp:27:exp:15:exp:28:exp:17:int:1024:exp:19:exp:15:int:1
+
+PK can do ext: RSA_PKCS1V15_SIGN(ANY)/NONE, check non-present usage
+depends_on:0
+1:int:1:exp:27:exp:15:exp:28:exp:17:int:1024:exp:19:exp:25:int:0
+
+PK can do ext: RSA_PKCS1V15_SIGN(SHA256)/NONE, check RSA_PKCS1V15_SIGN(SHA256)
+depends_on:0
+1:int:1:exp:27:exp:15:exp:19:exp:17:int:1024:exp:19:exp:15:int:1
+
+PK can do ext: NONE, RSA_PKCS1V15_SIGN(ANY), check RSA_PKCS1V15_SIGN(SHA256)
+depends_on:0
+1:int:1:exp:27:exp:15:exp:17:exp:28:int:1024:exp:19:exp:15:int:1
+
+PK can do ext: NONE, RSA_PKCS1V15_SIGN(SHA256), check RSA_PKCS1V15_SIGN(SHA256)
+depends_on:0
+1:int:1:exp:27:exp:15:exp:17:exp:19:int:1024:exp:19:exp:15:int:1
+
+PK can do ext: RSA_PKCS1V15_SIGN(SHA256)/NONE, invalid check RSA_PKCS1V15_SIGN(ANY)
+depends_on:0
+1:int:1:exp:27:exp:15:exp:19:exp:17:int:1024:exp:28:exp:15:int:0
+
+PK can do ext: RSA_PKCS1V15_SIGN(SHA1)/NONE, invalid check RSA_PKCS1V15_SIGN(SHA256)
+depends_on:0
+1:int:1:exp:27:exp:15:exp:30:exp:17:int:1024:exp:19:exp:15:int:0
+
+PK can do ext: RSA_PSS(ANY)/NONE, invalid check STREAM_CIPHER
+depends_on:0
+1:int:1:exp:27:exp:15:exp:31:exp:17:int:1024:exp:18:exp:15:int:0
+
+PK can do ext: RSA_PSS(ANY)/NONE, invalid check ECDSA(SHA256)
+depends_on:0
+1:int:1:exp:27:exp:15:exp:31:exp:17:int:1024:exp:23:exp:15:int:0
+
+PK can do ext: RSA_PSS(ANY)/NONE, invalid check RSA_PKCS1V15_CRYPT
+depends_on:0
+1:int:1:exp:27:exp:15:exp:31:exp:17:int:1024:exp:20:exp:15:int:0
+
+PK can do ext: RSA_PSS(ANY)/NONE, invalid check RSA_PKCS1V15_SIGN(SHA256)
+depends_on:0
+1:int:1:exp:27:exp:15:exp:31:exp:17:int:1024:exp:19:exp:15:int:0
+
+PK can do ext: RSA_PSS(ANY)/NONE, check RSA_PSS(SHA256)
+depends_on:0
+1:int:1:exp:27:exp:15:exp:31:exp:17:int:1024:exp:21:exp:15:int:1
+
+PK can do ext: RSA_PSS(SHA256)/NONE, check RSA_PSS(SHA256)
+depends_on:0
+1:int:1:exp:27:exp:15:exp:21:exp:17:int:1024:exp:21:exp:15:int:1
+
+PK can do ext: NONE, RSA_PSS(ANY), check RSA_PSS(SHA256)
+depends_on:0
+1:int:1:exp:27:exp:15:exp:17:exp:31:int:1024:exp:21:exp:15:int:1
+
+PK can do ext: NONE, RSA_PSS(SHA256), check RSA_PSS(SHA256)
+depends_on:0
+1:int:1:exp:27:exp:15:exp:17:exp:21:int:1024:exp:21:exp:15:int:1
+
+PK can do ext: RSA_PSS(SHA256)/NONE, invalid check RSA_PSS(ANY)
+depends_on:0
+1:int:1:exp:27:exp:15:exp:21:exp:17:int:1024:exp:31:exp:15:int:0
+
+PK can do ext: RSA_PSS(SHA1)/NONE, invalid check RSA_PSS(SHA256)
+depends_on:0
+1:int:1:exp:27:exp:15:exp:32:exp:17:int:1024:exp:21:exp:15:int:0
+
+PK can do ext: RSA_PKCS1V15_SIGN_RAW/NONE, check RSA_PKCS1V15_SIGN_RAW
+depends_on:0
+1:int:1:exp:27:exp:15:exp:33:exp:17:int:1024:exp:33:exp:15:int:1
+
+PK can do ext: RSA_PKCS1V15_SIGN_RAW/NONE, invalid check RSA_PKCS1V15_SIGN(SHA256)
+depends_on:0
+1:int:1:exp:27:exp:15:exp:33:exp:17:int:1024:exp:19:exp:15:int:0
+
+PK can do ext: RSA_PKCS1V15_CRYPT/NONE, invalid check STREAM_CIPHER
+depends_on:0
+1:int:1:exp:27:exp:34:exp:20:exp:17:int:1024:exp:18:exp:34:int:0
+
+PK can do ext: RSA_PKCS1V15_CRYPT/NONE, invalid check ECDSA(SHA256)
+depends_on:0
+1:int:1:exp:27:exp:34:exp:20:exp:17:int:1024:exp:23:exp:34:int:0
+
+PK can do ext: RSA_PKCS1V15_CRYPT/NONE, invalid check ECDH
+depends_on:0
+1:int:1:exp:27:exp:34:exp:20:exp:17:int:1024:exp:22:exp:34:int:0
+
+PK can do ext: RSA_PKCS1V15_CRYPT/NONE, invalid check RSA_PSS(SHA256)
+depends_on:0
+1:int:1:exp:27:exp:34:exp:20:exp:17:int:1024:exp:21:exp:34:int:0
+
+PK can do ext: RSA_PKCS1V15_CRYPT/NONE, invalid check RSA_PKCS1V15_SIGN(SHA256)
+depends_on:0
+1:int:1:exp:27:exp:34:exp:20:exp:17:int:1024:exp:19:exp:34:int:0
+
+PK can do ext: RSA_PKCS1V15_CRYPT/NONE, check RSA_PKCS1V15_CRYPT
+depends_on:0
+1:int:1:exp:27:exp:34:exp:20:exp:17:int:1024:exp:20:exp:35:int:1
+
+PK can do ext: RSA_PKCS1V15_CRYPT/RSA_PSS(ANY), check RSA_PKCS1V15_CRYPT
+depends_on:0
+1:int:1:exp:27:exp:36:exp:20:exp:31:int:1024:exp:20:exp:35:int:1
+
+PK can do ext: RSA_PKCS1V15_CRYPT/RSA_PSS(ANY), check RSA_PSS(SHA256)
+depends_on:0
+1:int:1:exp:27:exp:36:exp:20:exp:31:int:1024:exp:21:exp:35:int:1
+
+PK can do ext: RSA_PKCS1V15_CRYPT/RSA_PSS(ANY), check non allowed ENCRYPT usage
+depends_on:0
+1:int:1:exp:27:exp:36:exp:20:exp:31:int:1024:exp:21:exp:37:int:0
+
+PK can do ext: RSA_PKCS1V15_SIGN(ANY)/RSA_PSS(ANY), check RSA_PSS(SHA256)
+depends_on:0
+1:int:1:exp:27:exp:15:exp:28:exp:31:int:1024:exp:21:exp:15:int:1
+
+PK can do ext: RSA_PKCS1V15_SIGN(ANY)/RSA_PSS(ANY), check RSA_PKCS1V15_SIGN(SHA256)
+depends_on:0
+1:int:1:exp:27:exp:15:exp:28:exp:31:int:1024:exp:19:exp:15:int:1
+
+PK can do ext: MBEDTLS_PK_ECKEY, check ECDSA(SHA256)
+depends_on:1:6
+1:int:0:exp:5:int:0:int:0:int:0:exp:11:exp:23:exp:15:int:1
+
+PK can do ext: MBEDTLS_PK_ECKEY, check ECDH
+depends_on:1:6
+1:int:0:exp:5:int:0:int:0:int:0:exp:11:exp:22:exp:25:int:1
+
+PK can do ext: MBEDTLS_PK_RSA, check RSA_PKCS1V15_SIGN(SHA256)
+depends_on:0
+1:int:0:exp:0:int:0:int:0:int:0:int:1024:exp:19:exp:15:int:1
+
+PK can do ext: MBEDTLS_PK_RSA, check PSA_ALG_RSA_PKCS1V15_CRYPT
+depends_on:0
+1:int:0:exp:0:int:0:int:0:int:0:int:1024:exp:20:exp:35:int:1
+
+PK can do ext: MBEDTLS_PK_RSA, check invalid PSA_KEY_USAGE_ENCRYPT
+depends_on:0
+1:int:0:exp:0:int:0:int:0:int:0:int:1024:exp:20:exp:37:int:0
+
+PK can do ext: MBEDTLS_PK_RSA, check RSA_PSS(SHA256)
+depends_on:0
+1:int:0:exp:0:int:0:int:0:int:0:int:1024:exp:21:exp:15:int:1
+
+RSA verify test vector: PKCS1v1.5 (explicit), SHA1, good
+depends_on:10:11
+7:hex:"6a8a1f225703fe39753c1017b43eec9e070a70b1":exp:38:exp:39:int:1024:char*:"e28a13548525e5f36dccb24ecb7cc332cc689dfd64012604c9c7816d72a16c3f5fcdc0e86e7c03280b1c69b586ce0cd8aec722cc73a5d3b730310bf7dfebdc77ce5d94bbc369dc18a2f7b07bd505ab0f82224aef09fdc1e5063234255e0b3c40a52e9e8ae60898eb88a766bdd788fe9493d8fd86bcdd2884d5c06216c65469e5":char*:"3":hex:"5abc01f5de25b70867ff0c24e222c61f53c88daf42586fddcd56f3c4588f074be3c328056c063388688b6385a8167957c6e5355a510e005b8a851d69c96b36ec6036644078210e5d7d326f96365ee0648882921492bc7b753eb9c26cdbab37555f210df2ca6fec1b25b463d38b81c0dcea202022b04af5da58aa03d77be949b7":int:0
+
+RSA verify test vector: PKCS1v1.5 (default), SHA1, good
+depends_on:10:11
+7:hex:"6a8a1f225703fe39753c1017b43eec9e070a70b1":int:-1:exp:39:int:1024:char*:"e28a13548525e5f36dccb24ecb7cc332cc689dfd64012604c9c7816d72a16c3f5fcdc0e86e7c03280b1c69b586ce0cd8aec722cc73a5d3b730310bf7dfebdc77ce5d94bbc369dc18a2f7b07bd505ab0f82224aef09fdc1e5063234255e0b3c40a52e9e8ae60898eb88a766bdd788fe9493d8fd86bcdd2884d5c06216c65469e5":char*:"3":hex:"5abc01f5de25b70867ff0c24e222c61f53c88daf42586fddcd56f3c4588f074be3c328056c063388688b6385a8167957c6e5355a510e005b8a851d69c96b36ec6036644078210e5d7d326f96365ee0648882921492bc7b753eb9c26cdbab37555f210df2ca6fec1b25b463d38b81c0dcea202022b04af5da58aa03d77be949b7":int:0
+
+RSA verify test vector: PKCS1v1.5, SHA1, wrong signature
+depends_on:10:11
+7:hex:"6a8a1f225703fe39753c1017b43eec9e070a70b1":exp:38:exp:39:int:1024:char*:"e28a13548525e5f36dccb24ecb7cc332cc689dfd64012604c9c7816d72a16c3f5fcdc0e86e7c03280b1c69b586ce0cd8aec722cc73a5d3b730310bf7dfebdc77ce5d94bbc369dc18a2f7b07bd505ab0f82224aef09fdc1e5063234255e0b3c40a52e9e8ae60898eb88a766bdd788fe9493d8fd86bcdd2884d5c06216c65469e5":char*:"3":hex:"5abc01f5de25b70867ff0c24e222c61f53c88daf42586fddcd56f3c4588f074be3c328056c063388688b6385a8167957c6e5355a510e005b8a851d69c96b36ec6036644078210e5d7d326f96365ee0648882921492bc7b753eb9c26cdbab37555f210df2ca6fec1b25b463d38b81c0dcea202022b04af5da58aa03d77be949b8":exp:40
+
+RSA verify test vector: PSS, SHA1, good
+depends_on:10:12
+7:hex:"37b66ae0445843353d47ecb0b4fd14c110e62d6a":exp:41:exp:39:int:1024:char*:"a2ba40ee07e3b2bd2f02ce227f36a195024486e49c19cb41bbbdfbba98b22b0e577c2eeaffa20d883a76e65e394c69d4b3c05a1e8fadda27edb2a42bc000fe888b9b32c22d15add0cd76b3e7936e19955b220dd17d4ea904b1ec102b2e4de7751222aa99151024c7cb41cc5ea21d00eeb41f7c800834d2c6e06bce3bce7ea9a5":char*:"010001":hex:"8daa627d3de7595d63056c7ec659e54406f10610128baae821c8b2a0f3936d54dc3bdce46689f6b7951bb18e840542769718d5715d210d85efbb596192032c42be4c29972c856275eb6d5a45f05f51876fc6743deddd28caec9bb30ea99e02c3488269604fe497f74ccd7c7fca1671897123cbd30def5d54a2b5536ad90a747e":int:0
+
+RSA verify test vector: PSS, SHA1, wrong signature
+depends_on:10:12
+7:hex:"37b66ae0445843353d47ecb0b4fd14c110e62d6a":exp:41:exp:39:int:1024:char*:"a2ba40ee07e3b2bd2f02ce227f36a195024486e49c19cb41bbbdfbba98b22b0e577c2eeaffa20d883a76e65e394c69d4b3c05a1e8fadda27edb2a42bc000fe888b9b32c22d15add0cd76b3e7936e19955b220dd17d4ea904b1ec102b2e4de7751222aa99151024c7cb41cc5ea21d00eeb41f7c800834d2c6e06bce3bce7ea9a5":char*:"010001":hex:"8daa627d3de7595d63056c7ec659e54406f10610128baae821c8b2a0f3936d54dc3bdce46689f6b7951bb18e840542769718d5715d210d85efbb596192032c42be4c29972c856275eb6d5a45f05f51876fc6743deddd28caec9bb30ea99e02c3488269604fe497f74ccd7c7fca1671897123cbd30def5d54a2b5536ad90a747f":exp:40
+
+RSA verify test vector: PSS, SHA1, signature is PKCS1v1.5
+depends_on:10:12
+7:hex:"6a8a1f225703fe39753c1017b43eec9e070a70b1":exp:41:exp:39:int:1024:char*:"e28a13548525e5f36dccb24ecb7cc332cc689dfd64012604c9c7816d72a16c3f5fcdc0e86e7c03280b1c69b586ce0cd8aec722cc73a5d3b730310bf7dfebdc77ce5d94bbc369dc18a2f7b07bd505ab0f82224aef09fdc1e5063234255e0b3c40a52e9e8ae60898eb88a766bdd788fe9493d8fd86bcdd2884d5c06216c65469e5":char*:"3":hex:"5abc01f5de25b70867ff0c24e222c61f53c88daf42586fddcd56f3c4588f074be3c328056c063388688b6385a8167957c6e5355a510e005b8a851d69c96b36ec6036644078210e5d7d326f96365ee0648882921492bc7b753eb9c26cdbab37555f210df2ca6fec1b25b463d38b81c0dcea202022b04af5da58aa03d77be949b7":exp:40
+
+RSA verify test vector: PKCS1v1.5, SHA1, signature is PSS
+depends_on:10:11
+7:hex:"37b66ae0445843353d47ecb0b4fd14c110e62d6a":exp:38:exp:39:int:1024:char*:"a2ba40ee07e3b2bd2f02ce227f36a195024486e49c19cb41bbbdfbba98b22b0e577c2eeaffa20d883a76e65e394c69d4b3c05a1e8fadda27edb2a42bc000fe888b9b32c22d15add0cd76b3e7936e19955b220dd17d4ea904b1ec102b2e4de7751222aa99151024c7cb41cc5ea21d00eeb41f7c800834d2c6e06bce3bce7ea9a5":char*:"010001":hex:"8daa627d3de7595d63056c7ec659e54406f10610128baae821c8b2a0f3936d54dc3bdce46689f6b7951bb18e840542769718d5715d210d85efbb596192032c42be4c29972c856275eb6d5a45f05f51876fc6743deddd28caec9bb30ea99e02c3488269604fe497f74ccd7c7fca1671897123cbd30def5d54a2b5536ad90a747e":exp:40
+
+ECDSA verify test vector #1 (good)
+depends_on:2
+9:exp:10:exp:6:hex:"046FDD3028FA94A863CD4F78DBFF8B3AA561FC6D9CCBBCA88E0AE6FA437F5415F957542D0717FF8B84562DAE99872EF841":hex:"546869732073686F756C64206265207468652068617368206F662061206D6573736167652E00":hex:"30350218185B2A7FB5CD9C9A8488B119B68B47D6EC833509CE9FA1FF021900FB7D259A744A2348BD45D241A39DC915B81CC2084100FA24":int:0
+
+ECDSA verify test vector #2 (bad)
+depends_on:2
+9:exp:10:exp:6:hex:"046FDD3028FA94A863CD4F78DBFF8B3AA561FC6D9CCBBCA88E0AE6FA437F5415F957542D0717FF8B84562DAE99872EF841":hex:"546869732073686F756C64206265207468652068617368206F662061206D6573736167652E00":hex:"30350218185B2A7FB5CD9C9A8488B119B68B47D6EC833509CE9FA1FF021900FB7D259A744A2348BD45D241A39DC915B81CC2084100FA25":exp:42
+
+EC(DSA) verify test vector #1 (good)
+depends_on:2
+9:exp:5:exp:6:hex:"046FDD3028FA94A863CD4F78DBFF8B3AA561FC6D9CCBBCA88E0AE6FA437F5415F957542D0717FF8B84562DAE99872EF841":hex:"546869732073686F756C64206265207468652068617368206F662061206D6573736167652E00":hex:"30350218185B2A7FB5CD9C9A8488B119B68B47D6EC833509CE9FA1FF021900FB7D259A744A2348BD45D241A39DC915B81CC2084100FA24":int:0
+
+EC(DSA) verify test vector #2 (bad)
+depends_on:2
+9:exp:5:exp:6:hex:"046FDD3028FA94A863CD4F78DBFF8B3AA561FC6D9CCBBCA88E0AE6FA437F5415F957542D0717FF8B84562DAE99872EF841":hex:"546869732073686F756C64206265207468652068617368206F662061206D6573736167652E00":hex:"30350218185B2A7FB5CD9C9A8488B119B68B47D6EC833509CE9FA1FF021900FB7D259A744A2348BD45D241A39DC915B81CC2084100FA25":exp:42
+
+EC(DSA) verify test vector: good, bitlen(r) = 256
+depends_on:6
+9:exp:5:exp:11:hex:"0437cc56d976091e5a723ec7592dff206eee7cf9069174d0ad14b5f768225962924ee500d82311ffea2fd2345d5d16bd8a88c26b770d55cd8a2a0efa01c8b4edff":hex:"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855":hex:"3046022100faecc085c6c5362b91ff1fd6dd77da80bc071bee9ff1ac0ef9509c017f13267c022100a7d0b908c938d3dd6c6a9cdc5b0a4a4ee455c519c1ff6cda959806b7e7461ba0":int:0
+
+EC(DSA) verify test vector: good, bitlen(r) = 255
+depends_on:6
+9:exp:5:exp:11:hex:"0437cc56d976091e5a723ec7592dff206eee7cf9069174d0ad14b5f768225962924ee500d82311ffea2fd2345d5d16bd8a88c26b770d55cd8a2a0efa01c8b4edff":hex:"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855":hex:"30450220639f36215b2ff09bb2beb871e122de74c8d5e29ce8a105aa2b95661f42803e72022100becd8f81b2c186f9d5d2c92378d7b9452ce6de231b0c8d17bac2d8537d2331fd":int:0
+
+EC(DSA) verify test vector: good, bitlen(r) = 248
+depends_on:6
+9:exp:5:exp:11:hex:"0437cc56d976091e5a723ec7592dff206eee7cf9069174d0ad14b5f768225962924ee500d82311ffea2fd2345d5d16bd8a88c26b770d55cd8a2a0efa01c8b4edff":hex:"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855":hex:"30450220009109f967f9082abc9c46e5ea07936529b82023a1a49b872c046f430983db2602210085f0b1960d61f8d75109b5b7ff991d3171320d2ab547104f864048455a965090":int:0
+
+EC(DSA) verify test vector: good, bitlen(r) = 247
+depends_on:6
+9:exp:5:exp:11:hex:"0437cc56d976091e5a723ec7592dff206eee7cf9069174d0ad14b5f768225962924ee500d82311ffea2fd2345d5d16bd8a88c26b770d55cd8a2a0efa01c8b4edff":hex:"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855":hex:"3044021f461786833b50247b07194da6cedbd3caefbcd19c73b6283ccff5097cd0d73b022100d85d20b0b8c3b596eb1cdb0381e681fa0a8bccde4e89c139020af3b0f88e099c":int:0
+
+EC(DSA) verify test vector: good, bitlen(s) = 256
+depends_on:6
+9:exp:5:exp:11:hex:"0437cc56d976091e5a723ec7592dff206eee7cf9069174d0ad14b5f768225962924ee500d82311ffea2fd2345d5d16bd8a88c26b770d55cd8a2a0efa01c8b4edff":hex:"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855":hex:"30450220639f36215b2ff09bb2beb871e122de74c8d5e29ce8a105aa2b95661f42803e72022100becd8f81b2c186f9d5d2c92378d7b9452ce6de231b0c8d17bac2d8537d2331fd":int:0
+
+EC(DSA) verify test vector: good, bitlen(s) = 255
+depends_on:6
+9:exp:5:exp:11:hex:"0437cc56d976091e5a723ec7592dff206eee7cf9069174d0ad14b5f768225962924ee500d82311ffea2fd2345d5d16bd8a88c26b770d55cd8a2a0efa01c8b4edff":hex:"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855":hex:"304402206ae26950c606d08fe5e1682efdccfb3a7213ca46bd523ffd20c4213fe1400d3402207612106ada7055926167650b257da7f4c42c190b8aa9e3b680f8751fe90c63a5":int:0
+
+EC(DSA) verify test vector: good, bitlen(s) = 248
+depends_on:6
+9:exp:5:exp:11:hex:"0437cc56d976091e5a723ec7592dff206eee7cf9069174d0ad14b5f768225962924ee500d82311ffea2fd2345d5d16bd8a88c26b770d55cd8a2a0efa01c8b4edff":hex:"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855":hex:"3045022100fd4d718ab483827492e10b89745fad100d2dd257102b99aff179ee596a569f1f022000a1b777e32a8b4909763b615b805e59194e6196eb05719287a36eb5f17aa485":int:0
+
+EC(DSA) verify test vector: good, bitlen(s) = 247
+depends_on:6
+9:exp:5:exp:11:hex:"0437cc56d976091e5a723ec7592dff206eee7cf9069174d0ad14b5f768225962924ee500d82311ffea2fd2345d5d16bd8a88c26b770d55cd8a2a0efa01c8b4edff":hex:"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855":hex:"30430220685a6994daa6a14e4411b5267edc2a00beee907f2dddd956b2a5a1df791c15f8021f675db4538c000c734489ac737fddd5a739c5a23cd6c6eceea70c286ca4fac9":int:0
+
+ECDSA sign-verify: SECP192R1
+depends_on:5:9:2
+11:exp:10:exp:6:int:0:int:0:int:0:int:0
+
+ECDSA sign-verify: SECP256R1
+depends_on:5:9:6
+11:exp:10:exp:11:int:0:int:0:int:0:int:0
+
+ECDSA sign-verify: SECP384R1
+depends_on:5:9:7
+11:exp:10:exp:12:int:0:int:0:int:0:int:0
+
+ECDSA sign-verify: SECP521R1
+depends_on:5:9:8
+11:exp:10:exp:13:int:0:int:0:int:0:int:0
+
+ECDSA sign-verify: BP256R1
+depends_on:5:13
+11:exp:10:exp:43:int:0:int:0:int:0:int:0
+
+ECDSA sign-verify: BP512R1
+depends_on:5:14
+11:exp:10:exp:44:int:0:int:0:int:0:int:0
+
+EC(DSA) sign-verify: SECP192R1
+depends_on:5:9:2
+11:exp:5:exp:6:int:0:int:0:int:0:int:0
+
+EC_DH (no) sign-verify: SECP192R1
+depends_on:1:2
+11:exp:7:exp:6:int:0:int:0:exp:45:exp:45
+
+RSA sign-verify, PKCS1v1.5, SHA1
+depends_on:0:11:10
+11:exp:0:exp:46:exp:38:exp:39:int:0:int:0
+
+RSA sign-verify, PKCS1v2.1, SHA1
+depends_on:0:12:10
+11:exp:0:exp:46:exp:41:exp:39:int:0:int:0
+
+RSA sign-verify, PKCS1v1.5, SHA256
+depends_on:0:11:15
+11:exp:0:exp:46:exp:38:exp:47:int:0:int:0
+
+RSA sign-verify, PKCS1v2.1, SHA256
+depends_on:0:12:15
+11:exp:0:exp:46:exp:41:exp:47:int:0:int:0
+
+RSA encrypt-decrypt test PKCS1 v1.5
+depends_on:11
+12:hex:"4E636AF98E40F3ADCFCCB698F4E80B9F":int:2048:exp:38:char*:"e79a373182bfaa722eb035f772ad2a9464bd842de59432c18bbab3a7dfeae318c9b915ee487861ab665a40bd6cda560152578e8579016c929df99fea05b4d64efca1d543850bc8164b40d71ed7f3fa4105df0fb9b9ad2a18ce182c8a4f4f975bea9aa0b9a1438a27a28e97ac8330ef37383414d1bd64607d6979ac050424fd17":char*:"c6749cbb0db8c5a177672d4728a8b22392b2fc4d3b8361d5c0d5055a1b4e46d821f757c24eef2a51c561941b93b3ace7340074c058c9bb48e7e7414f42c41da4cccb5c2ba91deb30c586b7fb18af12a52995592ad139d3be429add6547e044becedaf31fa3b39421e24ee034fbf367d11f6b8f88ee483d163b431e1654ad3e89":char*:"b38ac65c8141f7f5c96e14470e851936a67bf94cc6821a39ac12c05f7c0b06d9e6ddba2224703b02e25f31452f9c4a8417b62675fdc6df46b94813bc7b9769a892c482b830bfe0ad42e46668ace68903617faf6681f4babf1cc8e4b0420d3c7f61dc45434c6b54e2c3ee0fc07908509d79c9826e673bf8363255adb0add2401039a7bcd1b4ecf0fbe6ec8369d2da486eec59559dd1d54c9b24190965eafbdab203b35255765261cd0909acf93c3b8b8428cbb448de4715d1b813d0c94829c229543d391ce0adab5351f97a3810c1f73d7b1458b97daed4209c50e16d064d2d5bfda8c23893d755222793146d0a78c3d64f35549141486c3b0961a7b4c1a2034f":char*:"3":int:0
+
+RSA encrypt-decrypt test PKCS1 v2.1
+depends_on:12:10
+12:hex:"4E636AF98E40F3ADCFCCB698F4E80B9F":int:2048:exp:41:char*:"e79a373182bfaa722eb035f772ad2a9464bd842de59432c18bbab3a7dfeae318c9b915ee487861ab665a40bd6cda560152578e8579016c929df99fea05b4d64efca1d543850bc8164b40d71ed7f3fa4105df0fb9b9ad2a18ce182c8a4f4f975bea9aa0b9a1438a27a28e97ac8330ef37383414d1bd64607d6979ac050424fd17":char*:"c6749cbb0db8c5a177672d4728a8b22392b2fc4d3b8361d5c0d5055a1b4e46d821f757c24eef2a51c561941b93b3ace7340074c058c9bb48e7e7414f42c41da4cccb5c2ba91deb30c586b7fb18af12a52995592ad139d3be429add6547e044becedaf31fa3b39421e24ee034fbf367d11f6b8f88ee483d163b431e1654ad3e89":char*:"b38ac65c8141f7f5c96e14470e851936a67bf94cc6821a39ac12c05f7c0b06d9e6ddba2224703b02e25f31452f9c4a8417b62675fdc6df46b94813bc7b9769a892c482b830bfe0ad42e46668ace68903617faf6681f4babf1cc8e4b0420d3c7f61dc45434c6b54e2c3ee0fc07908509d79c9826e673bf8363255adb0add2401039a7bcd1b4ecf0fbe6ec8369d2da486eec59559dd1d54c9b24190965eafbdab203b35255765261cd0909acf93c3b8b8428cbb448de4715d1b813d0c94829c229543d391ce0adab5351f97a3810c1f73d7b1458b97daed4209c50e16d064d2d5bfda8c23893d755222793146d0a78c3d64f35549141486c3b0961a7b4c1a2034f":char*:"3":int:0
+
+RSA decrypt test vector - PKCS1v1.5
+depends_on:11
+13:hex:"28818cb14236ad18f4527e7f1f7633e96cef021bc3234475d7f61e88702b6335b42a352ed3f3267ac7c3e9ba4af17e45096c63eefd8d9a7cb42dfc52fffb2f5b8afb305b46312c2eb50634123b4437a2287ac57b7509d59a583fb741989a49f32625e9267b4641a6607b7303d35c68489db53c8d387b620d0d46a852e72ea43c":int:1024:exp:38:exp:48:char*:"eecfae81b1b9b3c908810b10a1b5600199eb9f44aef4fda493b81a9e3d84f632124ef0236e5d1e3b7e28fae7aa040a2d5b252176459d1f397541ba2a58fb6599":char*:"c97fb1f027f453f6341233eaaad1d9353f6c42d08866b1d05a0f2035028b9d869840b41666b42e92ea0da3b43204b5cfce3352524d0416a5a441e700af461503":char*:"bbf82f090682ce9c2338ac2b9da871f7368d07eed41043a440d6b6f07454f51fb8dfbaaf035c02ab61ea48ceeb6fcd4876ed520d60e1ec4619719d8a5b8b807fafb8e0a3dfc737723ee6b4b7d93a2584ee6a649d060953748834b2454598394ee0aab12d7b61a51f527a9a41f6c1687fe2537298ca2a8f5946f8e5fd091dbdcb":char*:"11":hex:"d436e99569fd32a7c8a05bbc90d32c49":int:0
+
+RSA decrypt test vector - PKCS1v1.5, corrupted encrypted data
+depends_on:11
+13:hex:"28818cb14236ad18f4527e7f1f7633e96cef021bc3234475d7f61e88702b6335b42a352ed3f3267ac7c3e9ba4af17e45096c63eefd8d9a7cb42dfc52fffb2f5b8afb305b46312c2eb50634123b4437a2287ac57b7509d59a583fb741989a49f32625e9267b4641a6607b7303d35c68489db53c8d387b620d0d46a852e72ea43d":int:1024:exp:38:exp:48:char*:"eecfae81b1b9b3c908810b10a1b5600199eb9f44aef4fda493b81a9e3d84f632124ef0236e5d1e3b7e28fae7aa040a2d5b252176459d1f397541ba2a58fb6599":char*:"c97fb1f027f453f6341233eaaad1d9353f6c42d08866b1d05a0f2035028b9d869840b41666b42e92ea0da3b43204b5cfce3352524d0416a5a441e700af461503":char*:"bbf82f090682ce9c2338ac2b9da871f7368d07eed41043a440d6b6f07454f51fb8dfbaaf035c02ab61ea48ceeb6fcd4876ed520d60e1ec4619719d8a5b8b807fafb8e0a3dfc737723ee6b4b7d93a2584ee6a649d060953748834b2454598394ee0aab12d7b61a51f527a9a41f6c1687fe2537298ca2a8f5946f8e5fd091dbdcb":char*:"11":hex:"d436e99569fd32a7c8a05bbc90d32c49":exp:49
+
+RSA decrypt test vector - PKCS1v2.1
+depends_on:12:10
+13:hex:"1253e04dc0a5397bb44a7ab87e9bf2a039a33d1e996fc82a94ccd30074c95df763722017069e5268da5d1c0b4f872cf653c11df82314a67968dfeae28def04bb6d84b1c31d654a1970e5783bd6eb96a024c2ca2f4a90fe9f2ef5c9c140e5bb48da9536ad8700c84fc9130adea74e558d51a74ddf85d8b50de96838d6063e0955":int:1024:exp:41:exp:39:char*:"eecfae81b1b9b3c908810b10a1b5600199eb9f44aef4fda493b81a9e3d84f632124ef0236e5d1e3b7e28fae7aa040a2d5b252176459d1f397541ba2a58fb6599":char*:"c97fb1f027f453f6341233eaaad1d9353f6c42d08866b1d05a0f2035028b9d869840b41666b42e92ea0da3b43204b5cfce3352524d0416a5a441e700af461503":char*:"bbf82f090682ce9c2338ac2b9da871f7368d07eed41043a440d6b6f07454f51fb8dfbaaf035c02ab61ea48ceeb6fcd4876ed520d60e1ec4619719d8a5b8b807fafb8e0a3dfc737723ee6b4b7d93a2584ee6a649d060953748834b2454598394ee0aab12d7b61a51f527a9a41f6c1687fe2537298ca2a8f5946f8e5fd091dbdcb":char*:"11":hex:"d436e99569fd32a7c8a05bbc90d32c49":int:0
+
+RSA decrypt test vector - PKCS1v2.1, corrupted encrypted data
+depends_on:12:10
+13:hex:"1253e04dc0a5397bb44a7ab87e9bf2a039a33d1e996fc82a94ccd30074c95df763722017069e5268da5d1c0b4f872cf653c11df82314a67968dfeae28def04bb6d84b1c31d654a1970e5783bd6eb96a024c2ca2f4a90fe9f2ef5c9c140e5bb48da9536ad8700c84fc9130adea74e558d51a74ddf85d8b50de96838d6063e0956":int:1024:exp:41:exp:39:char*:"eecfae81b1b9b3c908810b10a1b5600199eb9f44aef4fda493b81a9e3d84f632124ef0236e5d1e3b7e28fae7aa040a2d5b252176459d1f397541ba2a58fb6599":char*:"c97fb1f027f453f6341233eaaad1d9353f6c42d08866b1d05a0f2035028b9d869840b41666b42e92ea0da3b43204b5cfce3352524d0416a5a441e700af461503":char*:"bbf82f090682ce9c2338ac2b9da871f7368d07eed41043a440d6b6f07454f51fb8dfbaaf035c02ab61ea48ceeb6fcd4876ed520d60e1ec4619719d8a5b8b807fafb8e0a3dfc737723ee6b4b7d93a2584ee6a649d060953748834b2454598394ee0aab12d7b61a51f527a9a41f6c1687fe2537298ca2a8f5946f8e5fd091dbdcb":char*:"11":hex:"d436e99569fd32a7c8a05bbc90d32c49":exp:49
+
+RSA decrypt test vector - PKCS1v1.5, but data is PKCS1v2.1 encrypted
+depends_on:11
+13:hex:"1253e04dc0a5397bb44a7ab87e9bf2a039a33d1e996fc82a94ccd30074c95df763722017069e5268da5d1c0b4f872cf653c11df82314a67968dfeae28def04bb6d84b1c31d654a1970e5783bd6eb96a024c2ca2f4a90fe9f2ef5c9c140e5bb48da9536ad8700c84fc9130adea74e558d51a74ddf85d8b50de96838d6063e0955":int:1024:exp:38:exp:48:char*:"eecfae81b1b9b3c908810b10a1b5600199eb9f44aef4fda493b81a9e3d84f632124ef0236e5d1e3b7e28fae7aa040a2d5b252176459d1f397541ba2a58fb6599":char*:"c97fb1f027f453f6341233eaaad1d9353f6c42d08866b1d05a0f2035028b9d869840b41666b42e92ea0da3b43204b5cfce3352524d0416a5a441e700af461503":char*:"bbf82f090682ce9c2338ac2b9da871f7368d07eed41043a440d6b6f07454f51fb8dfbaaf035c02ab61ea48ceeb6fcd4876ed520d60e1ec4619719d8a5b8b807fafb8e0a3dfc737723ee6b4b7d93a2584ee6a649d060953748834b2454598394ee0aab12d7b61a51f527a9a41f6c1687fe2537298ca2a8f5946f8e5fd091dbdcb":char*:"11":hex:"d436e99569fd32a7c8a05bbc90d32c49":exp:49
+
+RSA decrypt test vector - PKCS1v2.1, but data is PKCS1v1.5 encrypted
+depends_on:12:10
+13:hex:"28818cb14236ad18f4527e7f1f7633e96cef021bc3234475d7f61e88702b6335b42a352ed3f3267ac7c3e9ba4af17e45096c63eefd8d9a7cb42dfc52fffb2f5b8afb305b46312c2eb50634123b4437a2287ac57b7509d59a583fb741989a49f32625e9267b4641a6607b7303d35c68489db53c8d387b620d0d46a852e72ea43c":int:1024:exp:41:exp:39:char*:"eecfae81b1b9b3c908810b10a1b5600199eb9f44aef4fda493b81a9e3d84f632124ef0236e5d1e3b7e28fae7aa040a2d5b252176459d1f397541ba2a58fb6599":char*:"c97fb1f027f453f6341233eaaad1d9353f6c42d08866b1d05a0f2035028b9d869840b41666b42e92ea0da3b43204b5cfce3352524d0416a5a441e700af461503":char*:"bbf82f090682ce9c2338ac2b9da871f7368d07eed41043a440d6b6f07454f51fb8dfbaaf035c02ab61ea48ceeb6fcd4876ed520d60e1ec4619719d8a5b8b807fafb8e0a3dfc737723ee6b4b7d93a2584ee6a649d060953748834b2454598394ee0aab12d7b61a51f527a9a41f6c1687fe2537298ca2a8f5946f8e5fd091dbdcb":char*:"11":hex:"d436e99569fd32a7c8a05bbc90d32c49":exp:49
+
+RSA Opaque PCKS1 v1.5 - decrypt test vector #1
+depends_on:11
+14:hex:"a42eda41e56235e666e7faaa77100197f657288a1bf183e4820f0c37ce2c456b960278d6003e0bbcd4be4a969f8e8fd9231e1f492414f00ed09844994c86ec32db7cde3bec7f0c3dbf6ae55baeb2712fa609f5fc3207a824eb3dace31849cd6a6084318523912bccb84cf42e3c6d6d1685131d69bb545acec827d2b0dfdd5568b7dcc4f5a11d6916583fefa689d367f8c9e1d95dcd2240895a9470b0c1730f97cd6e8546860bd254801769f54be96e16362ddcbf34d56035028890199e0f48db38642cb66a4181e028a6443a404fea284ce02b4614b683367d40874e505611d23142d49f06feea831d52d347b13610b413c4efc43a6de9f0b08d2a951dc503b6":int:2048:char*:"e79a373182bfaa722eb035f772ad2a9464bd842de59432c18bbab3a7dfeae318c9b915ee487861ab665a40bd6cda560152578e8579016c929df99fea05b4d64efca1d543850bc8164b40d71ed7f3fa4105df0fb9b9ad2a18ce182c8a4f4f975bea9aa0b9a1438a27a28e97ac8330ef37383414d1bd64607d6979ac050424fd17":char*:"c6749cbb0db8c5a177672d4728a8b22392b2fc4d3b8361d5c0d5055a1b4e46d821f757c24eef2a51c561941b93b3ace7340074c058c9bb48e7e7414f42c41da4cccb5c2ba91deb30c586b7fb18af12a52995592ad139d3be429add6547e044becedaf31fa3b39421e24ee034fbf367d11f6b8f88ee483d163b431e1654ad3e89":char*:"b38ac65c8141f7f5c96e14470e851936a67bf94cc6821a39ac12c05f7c0b06d9e6ddba2224703b02e25f31452f9c4a8417b62675fdc6df46b94813bc7b9769a892c482b830bfe0ad42e46668ace68903617faf6681f4babf1cc8e4b0420d3c7f61dc45434c6b54e2c3ee0fc07908509d79c9826e673bf8363255adb0add2401039a7bcd1b4ecf0fbe6ec8369d2da486eec59559dd1d54c9b24190965eafbdab203b35255765261cd0909acf93c3b8b8428cbb448de4715d1b813d0c94829c229543d391ce0adab5351f97a3810c1f73d7b1458b97daed4209c50e16d064d2d5bfda8c23893d755222793146d0a78c3d64f35549141486c3b0961a7b4c1a2034f":char*:"3":exp:38:hex:"4E636AF98E40F3ADCFCCB698F4E80B9F":int:0
+
+RSA Opaque PCKS1 v2.1 - decrypt test vector #1
+depends_on:12:10
+14:hex:"1253e04dc0a5397bb44a7ab87e9bf2a039a33d1e996fc82a94ccd30074c95df763722017069e5268da5d1c0b4f872cf653c11df82314a67968dfeae28def04bb6d84b1c31d654a1970e5783bd6eb96a024c2ca2f4a90fe9f2ef5c9c140e5bb48da9536ad8700c84fc9130adea74e558d51a74ddf85d8b50de96838d6063e0955":int:1024:char*:"eecfae81b1b9b3c908810b10a1b5600199eb9f44aef4fda493b81a9e3d84f632124ef0236e5d1e3b7e28fae7aa040a2d5b252176459d1f397541ba2a58fb6599":char*:"c97fb1f027f453f6341233eaaad1d9353f6c42d08866b1d05a0f2035028b9d869840b41666b42e92ea0da3b43204b5cfce3352524d0416a5a441e700af461503":char*:"bbf82f090682ce9c2338ac2b9da871f7368d07eed41043a440d6b6f07454f51fb8dfbaaf035c02ab61ea48ceeb6fcd4876ed520d60e1ec4619719d8a5b8b807fafb8e0a3dfc737723ee6b4b7d93a2584ee6a649d060953748834b2454598394ee0aab12d7b61a51f527a9a41f6c1687fe2537298ca2a8f5946f8e5fd091dbdcb":char*:"11":exp:41:hex:"d436e99569fd32a7c8a05bbc90d32c49":int:0
+
+RSA Opaque PCKS1 v1.5 - decrypt test vector #2
+depends_on:11
+14:hex:"a42eda41e56235e666e7faaa77100197f657288a1bf183e4820f0c37ce2c456b960278d6003e0bbcd4be4a969f8e8fd9231e1f492414f00ed09844994c86ec32db7cde3bec7f0c3dbf6ae55baeb2712fa609f5fc3207a824eb3dace31849cd6a6084318523912bccb84cf42e3c6d6d1685131d69bb545acec827d2b0dfdd5568b7dcc4f5a11d6916583fefa689d367f8c9e1d95dcd2240895a9470b0c1730f97cd6e8546860bd254801769f54be96e16362ddcbf34d56035028890199e0f48db38642cb66a4181e028a6443a404feb284ce02b4614b683367d40874e505611d23142d49f06feea831d52d347b13610b413c4efc43a6de9f0b08d2a951dc503b6":int:2048:char*:"e79a373182bfaa722eb035f772ad2a9464bd842de59432c18bbab3a7dfeae318c9b915ee487861ab665a40bd6cda560152578e8579016c929df99fea05b4d64efca1d543850bc8164b40d71ed7f3fa4105df0fb9b9ad2a18ce182c8a4f4f975bea9aa0b9a1438a27a28e97ac8330ef37383414d1bd64607d6979ac050424fd17":char*:"c6749cbb0db8c5a177672d4728a8b22392b2fc4d3b8361d5c0d5055a1b4e46d821f757c24eef2a51c561941b93b3ace7340074c058c9bb48e7e7414f42c41da4cccb5c2ba91deb30c586b7fb18af12a52995592ad139d3be429add6547e044becedaf31fa3b39421e24ee034fbf367d11f6b8f88ee483d163b431e1654ad3e89":char*:"b38ac65c8141f7f5c96e14470e851936a67bf94cc6821a39ac12c05f7c0b06d9e6ddba2224703b02e25f31452f9c4a8417b62675fdc6df46b94813bc7b9769a892c482b830bfe0ad42e46668ace68903617faf6681f4babf1cc8e4b0420d3c7f61dc45434c6b54e2c3ee0fc07908509d79c9826e673bf8363255adb0add2401039a7bcd1b4ecf0fbe6ec8369d2da486eec59559dd1d54c9b24190965eafbdab203b35255765261cd0909acf93c3b8b8428cbb448de4715d1b813d0c94829c229543d391ce0adab5351f97a3810c1f73d7b1458b97daed4209c50e16d064d2d5bfda8c23893d755222793146d0a78c3d64f35549141486c3b0961a7b4c1a2034f":char*:"3":exp:38:hex:"4E636AF98E40F3ADCFCCB698F4E80B9F":exp:49
+
+EC nocrypt
+depends_on:1
+15:exp:5
+
+EC-DH nocrypt
+depends_on:1
+15:exp:7
+
+ECDSA nocrypt
+depends_on:5:9
+15:exp:10
+
+RSA_ALT consistency
+depends_on:0:11
+17
+
+Verify ext RSA #1 (PKCS1 v2.1, salt_len = ANY, OK)
+depends_on:12:15
+8:hex:"c0719e9a8d5d838d861dc6f675c899d2b309a3a65bb9fe6b11e5afcbf9a2c0b1":exp:47:int:1024:char*:"00dd118a9f99bab068ca2aea3b6a6d5997ed4ec954e40deecea07da01eaae80ec2bb1340db8a128e891324a5c5f5fad8f590d7c8cacbc5fe931dafda1223735279461abaa0572b761631b3a8afe7389b088b63993a0a25ee45d21858bab9931aedd4589a631b37fcf714089f856549f359326dd1e0e86dde52ed66b4a90bda4095":char*:"010001":hex:"0d2bdb0456a3d651d5bd48a4204493898f72cf1aaddd71387cc058bc3f4c235ea6be4010fd61b28e1fbb275462b53775c04be9022d38b6a2e0387dddba86a3f8554d2858044a59fddbd594753fc056fe33c8daddb85dc70d164690b1182209ff84824e0be10e35c379f2f378bf176a9f7cb94d95e44d90276a298c8810f741c9":exp:50:exp:47:exp:51:int:128:int:0
+
+Verify ext RSA #2 (PKCS1 v2.1, salt_len = ANY, wrong message)
+depends_on:12:15
+8:hex:"ae6e43dd387c25741e42fc3570cdfc52e4f51a2343294f3b677dfe01cd5339f6":exp:47:int:1024:char*:"00dd118a9f99bab068ca2aea3b6a6d5997ed4ec954e40deecea07da01eaae80ec2bb1340db8a128e891324a5c5f5fad8f590d7c8cacbc5fe931dafda1223735279461abaa0572b761631b3a8afe7389b088b63993a0a25ee45d21858bab9931aedd4589a631b37fcf714089f856549f359326dd1e0e86dde52ed66b4a90bda4095":char*:"010001":hex:"0d2bdb0456a3d651d5bd48a4204493898f72cf1aaddd71387cc058bc3f4c235ea6be4010fd61b28e1fbb275462b53775c04be9022d38b6a2e0387dddba86a3f8554d2858044a59fddbd594753fc056fe33c8daddb85dc70d164690b1182209ff84824e0be10e35c379f2f378bf176a9f7cb94d95e44d90276a298c8810f741c9":exp:50:exp:47:exp:51:int:128:exp:40
+
+Verify ext RSA #3 (PKCS1 v2.1, salt_len = 0, OK)
+depends_on:12:15
+8:hex:"c0719e9a8d5d838d861dc6f675c899d2b309a3a65bb9fe6b11e5afcbf9a2c0b1":exp:47:int:1024:char*:"00dd118a9f99bab068ca2aea3b6a6d5997ed4ec954e40deecea07da01eaae80ec2bb1340db8a128e891324a5c5f5fad8f590d7c8cacbc5fe931dafda1223735279461abaa0572b761631b3a8afe7389b088b63993a0a25ee45d21858bab9931aedd4589a631b37fcf714089f856549f359326dd1e0e86dde52ed66b4a90bda4095":char*:"010001":hex:"7fc506d26ca3b22922a1ce39faaedd273161b82d9443c56f1a034f131ae4a18cae1474271cb4b66a17d9707ca58b0bdbd3c406b7e65bbcc9bbbce94dc45de807b4989b23b3e4db74ca29298137837eb90cc83d3219249bc7d480fceaf075203a86e54c4ecfa4e312e39f8f69d76534089a36ed9049ca9cfd5ab1db1fa75fe5c8":exp:50:exp:47:int:0:int:128:int:0
+
+Verify ext RSA #4 (PKCS1 v2.1, salt_len = max, OK)
+depends_on:12:15
+8:hex:"c0719e9a8d5d838d861dc6f675c899d2b309a3a65bb9fe6b11e5afcbf9a2c0b1":exp:47:int:1024:char*:"00dd118a9f99bab068ca2aea3b6a6d5997ed4ec954e40deecea07da01eaae80ec2bb1340db8a128e891324a5c5f5fad8f590d7c8cacbc5fe931dafda1223735279461abaa0572b761631b3a8afe7389b088b63993a0a25ee45d21858bab9931aedd4589a631b37fcf714089f856549f359326dd1e0e86dde52ed66b4a90bda4095":char*:"010001":hex:"0d2bdb0456a3d651d5bd48a4204493898f72cf1aaddd71387cc058bc3f4c235ea6be4010fd61b28e1fbb275462b53775c04be9022d38b6a2e0387dddba86a3f8554d2858044a59fddbd594753fc056fe33c8daddb85dc70d164690b1182209ff84824e0be10e35c379f2f378bf176a9f7cb94d95e44d90276a298c8810f741c9":exp:50:exp:47:int:94:int:128:int:0
+
+Verify ext RSA #5a (PKCS1 v2.1, wrong salt_len) !USE_PSA
+depends_on:12:15:16
+8:hex:"c0719e9a8d5d838d861dc6f675c899d2b309a3a65bb9fe6b11e5afcbf9a2c0b1":exp:47:int:1024:char*:"00dd118a9f99bab068ca2aea3b6a6d5997ed4ec954e40deecea07da01eaae80ec2bb1340db8a128e891324a5c5f5fad8f590d7c8cacbc5fe931dafda1223735279461abaa0572b761631b3a8afe7389b088b63993a0a25ee45d21858bab9931aedd4589a631b37fcf714089f856549f359326dd1e0e86dde52ed66b4a90bda4095":char*:"010001":hex:"0d2bdb0456a3d651d5bd48a4204493898f72cf1aaddd71387cc058bc3f4c235ea6be4010fd61b28e1fbb275462b53775c04be9022d38b6a2e0387dddba86a3f8554d2858044a59fddbd594753fc056fe33c8daddb85dc70d164690b1182209ff84824e0be10e35c379f2f378bf176a9f7cb94d95e44d90276a298c8810f741c9":exp:50:exp:47:int:32:int:128:exp:49
+
+Verify ext RSA #5b (PKCS1 v2.1, wrong salt_len) USE_PSA
+depends_on:12:15:17
+8:hex:"c0719e9a8d5d838d861dc6f675c899d2b309a3a65bb9fe6b11e5afcbf9a2c0b1":exp:47:int:1024:char*:"00dd118a9f99bab068ca2aea3b6a6d5997ed4ec954e40deecea07da01eaae80ec2bb1340db8a128e891324a5c5f5fad8f590d7c8cacbc5fe931dafda1223735279461abaa0572b761631b3a8afe7389b088b63993a0a25ee45d21858bab9931aedd4589a631b37fcf714089f856549f359326dd1e0e86dde52ed66b4a90bda4095":char*:"010001":hex:"0d2bdb0456a3d651d5bd48a4204493898f72cf1aaddd71387cc058bc3f4c235ea6be4010fd61b28e1fbb275462b53775c04be9022d38b6a2e0387dddba86a3f8554d2858044a59fddbd594753fc056fe33c8daddb85dc70d164690b1182209ff84824e0be10e35c379f2f378bf176a9f7cb94d95e44d90276a298c8810f741c9":exp:50:exp:47:int:32:int:128:int:0
+
+Verify ext RSA #6 (PKCS1 v2.1, MGF1 alg != MSG hash alg)
+depends_on:12:15
+8:hex:"c0719e9a8d5d838d861dc6f675c899d2b309a3a65bb9fe6b11e5afcbf9a2c0b1":exp:48:int:1024:char*:"00dd118a9f99bab068ca2aea3b6a6d5997ed4ec954e40deecea07da01eaae80ec2bb1340db8a128e891324a5c5f5fad8f590d7c8cacbc5fe931dafda1223735279461abaa0572b761631b3a8afe7389b088b63993a0a25ee45d21858bab9931aedd4589a631b37fcf714089f856549f359326dd1e0e86dde52ed66b4a90bda4095":char*:"010001":hex:"0d2bdb0456a3d651d5bd48a4204493898f72cf1aaddd71387cc058bc3f4c235ea6be4010fd61b28e1fbb275462b53775c04be9022d38b6a2e0387dddba86a3f8554d2858044a59fddbd594753fc056fe33c8daddb85dc70d164690b1182209ff84824e0be10e35c379f2f378bf176a9f7cb94d95e44d90276a298c8810f741c9":exp:50:exp:47:exp:51:int:128:int:0
+
+Verify ext RSA #7 (PKCS1 v2.1, wrong MGF1 alg != MSG hash alg)
+depends_on:12:15:10
+8:hex:"c0719e9a8d5d838d861dc6f675c899d2b309a3a65bb9fe6b11e5afcbf9a2c0b1":exp:48:int:1024:char*:"00dd118a9f99bab068ca2aea3b6a6d5997ed4ec954e40deecea07da01eaae80ec2bb1340db8a128e891324a5c5f5fad8f590d7c8cacbc5fe931dafda1223735279461abaa0572b761631b3a8afe7389b088b63993a0a25ee45d21858bab9931aedd4589a631b37fcf714089f856549f359326dd1e0e86dde52ed66b4a90bda4095":char*:"010001":hex:"0d2bdb0456a3d651d5bd48a4204493898f72cf1aaddd71387cc058bc3f4c235ea6be4010fd61b28e1fbb275462b53775c04be9022d38b6a2e0387dddba86a3f8554d2858044a59fddbd594753fc056fe33c8daddb85dc70d164690b1182209ff84824e0be10e35c379f2f378bf176a9f7cb94d95e44d90276a298c8810f741c9":exp:50:exp:39:exp:51:int:128:exp:49
+
+Verify ext RSA #8 (PKCS1 v2.1, RSASSA-PSS without options)
+depends_on:12:15
+8:hex:"c0719e9a8d5d838d861dc6f675c899d2b309a3a65bb9fe6b11e5afcbf9a2c0b1":exp:47:int:1024:char*:"00dd118a9f99bab068ca2aea3b6a6d5997ed4ec954e40deecea07da01eaae80ec2bb1340db8a128e891324a5c5f5fad8f590d7c8cacbc5fe931dafda1223735279461abaa0572b761631b3a8afe7389b088b63993a0a25ee45d21858bab9931aedd4589a631b37fcf714089f856549f359326dd1e0e86dde52ed66b4a90bda4095":char*:"010001":hex:"0d2bdb0456a3d651d5bd48a4204493898f72cf1aaddd71387cc058bc3f4c235ea6be4010fd61b28e1fbb275462b53775c04be9022d38b6a2e0387dddba86a3f8554d2858044a59fddbd594753fc056fe33c8daddb85dc70d164690b1182209ff84824e0be10e35c379f2f378bf176a9f7cb94d95e44d90276a298c8810f741c9":exp:50:int:-1:exp:51:int:128:exp:52
+
+Verify ext RSA #9 (PKCS1 v1.5, RSA with options)
+depends_on:11:15
+8:hex:"c0719e9a8d5d838d861dc6f675c899d2b309a3a65bb9fe6b11e5afcbf9a2c0b1":exp:47:int:1024:char*:"00dd118a9f99bab068ca2aea3b6a6d5997ed4ec954e40deecea07da01eaae80ec2bb1340db8a128e891324a5c5f5fad8f590d7c8cacbc5fe931dafda1223735279461abaa0572b761631b3a8afe7389b088b63993a0a25ee45d21858bab9931aedd4589a631b37fcf714089f856549f359326dd1e0e86dde52ed66b4a90bda4095":char*:"010001":hex:"0d2bdb0456a3d651d5bd48a4204493898f72cf1aaddd71387cc058bc3f4c235ea6be4010fd61b28e1fbb275462b53775c04be9022d38b6a2e0387dddba86a3f8554d2858044a59fddbd594753fc056fe33c8daddb85dc70d164690b1182209ff84824e0be10e35c379f2f378bf176a9f7cb94d95e44d90276a298c8810f741c9":exp:0:exp:47:exp:51:int:128:exp:52
+
+Verify ext RSA #10 (PKCS1 v1.5, RSA without options)
+depends_on:11:15
+8:hex:"c0719e9a8d5d838d861dc6f675c899d2b309a3a65bb9fe6b11e5afcbf9a2c0b1":exp:47:int:1024:char*:"00dd118a9f99bab068ca2aea3b6a6d5997ed4ec954e40deecea07da01eaae80ec2bb1340db8a128e891324a5c5f5fad8f590d7c8cacbc5fe931dafda1223735279461abaa0572b761631b3a8afe7389b088b63993a0a25ee45d21858bab9931aedd4589a631b37fcf714089f856549f359326dd1e0e86dde52ed66b4a90bda4095":char*:"010001":hex:"0d2bdb0456a3d651d5bd48a4204493898f72cf1aaddd71387cc058bc3f4c235ea6be4010fd61b28e1fbb275462b53775c04be9022d38b6a2e0387dddba86a3f8554d2858044a59fddbd594753fc056fe33c8daddb85dc70d164690b1182209ff84824e0be10e35c379f2f378bf176a9f7cb94d95e44d90276a298c8810f741c9":exp:0:int:-1:exp:51:int:128:exp:40
+
+Verify ext RSA #11 (PKCS1 v2.1, asking for ECDSA)
+depends_on:5:15
+8:hex:"c0719e9a8d5d838d861dc6f675c899d2b309a3a65bb9fe6b11e5afcbf9a2c0b1":exp:47:int:1024:char*:"00dd118a9f99bab068ca2aea3b6a6d5997ed4ec954e40deecea07da01eaae80ec2bb1340db8a128e891324a5c5f5fad8f590d7c8cacbc5fe931dafda1223735279461abaa0572b761631b3a8afe7389b088b63993a0a25ee45d21858bab9931aedd4589a631b37fcf714089f856549f359326dd1e0e86dde52ed66b4a90bda4095":char*:"010001":hex:"0d2bdb0456a3d651d5bd48a4204493898f72cf1aaddd71387cc058bc3f4c235ea6be4010fd61b28e1fbb275462b53775c04be9022d38b6a2e0387dddba86a3f8554d2858044a59fddbd594753fc056fe33c8daddb85dc70d164690b1182209ff84824e0be10e35c379f2f378bf176a9f7cb94d95e44d90276a298c8810f741c9":exp:10:int:-1:exp:51:int:128:exp:45
+
+Verify ext RSA #12 (PKCS1 v1.5, good)
+depends_on:10:11
+8:hex:"6a8a1f225703fe39753c1017b43eec9e070a70b1":exp:39:int:1024:char*:"e28a13548525e5f36dccb24ecb7cc332cc689dfd64012604c9c7816d72a16c3f5fcdc0e86e7c03280b1c69b586ce0cd8aec722cc73a5d3b730310bf7dfebdc77ce5d94bbc369dc18a2f7b07bd505ab0f82224aef09fdc1e5063234255e0b3c40a52e9e8ae60898eb88a766bdd788fe9493d8fd86bcdd2884d5c06216c65469e5":char*:"3":hex:"5abc01f5de25b70867ff0c24e222c61f53c88daf42586fddcd56f3c4588f074be3c328056c063388688b6385a8167957c6e5355a510e005b8a851d69c96b36ec6036644078210e5d7d326f96365ee0648882921492bc7b753eb9c26cdbab37555f210df2ca6fec1b25b463d38b81c0dcea202022b04af5da58aa03d77be949b7":exp:0:int:-1:exp:51:int:128:int:0
+
+Verify ext RSA #13 (PKCS1 v2.1, salt_len = max, sig_len too long)
+depends_on:12:15
+8:hex:"c0719e9a8d5d838d861dc6f675c899d2b309a3a65bb9fe6b11e5afcbf9a2c0b1":exp:47:int:1024:char*:"00dd118a9f99bab068ca2aea3b6a6d5997ed4ec954e40deecea07da01eaae80ec2bb1340db8a128e891324a5c5f5fad8f590d7c8cacbc5fe931dafda1223735279461abaa0572b761631b3a8afe7389b088b63993a0a25ee45d21858bab9931aedd4589a631b37fcf714089f856549f359326dd1e0e86dde52ed66b4a90bda4095":char*:"010001":hex:"0d2bdb0456a3d651d5bd48a4204493898f72cf1aaddd71387cc058bc3f4c235ea6be4010fd61b28e1fbb275462b53775c04be9022d38b6a2e0387dddba86a3f8554d2858044a59fddbd594753fc056fe33c8daddb85dc70d164690b1182209ff84824e0be10e35c379f2f378bf176a9f7cb94d95e44d90276a298c8810f741c9":exp:50:exp:47:int:94:int:129:exp:53
+
+Verify ext RSA #14 (PKCS1 v2.1, salt_len = ANY, sig_len too long)
+depends_on:12:15
+8:hex:"c0719e9a8d5d838d861dc6f675c899d2b309a3a65bb9fe6b11e5afcbf9a2c0b1":exp:47:int:1024:char*:"00dd118a9f99bab068ca2aea3b6a6d5997ed4ec954e40deecea07da01eaae80ec2bb1340db8a128e891324a5c5f5fad8f590d7c8cacbc5fe931dafda1223735279461abaa0572b761631b3a8afe7389b088b63993a0a25ee45d21858bab9931aedd4589a631b37fcf714089f856549f359326dd1e0e86dde52ed66b4a90bda4095":char*:"010001":hex:"0d2bdb0456a3d651d5bd48a4204493898f72cf1aaddd71387cc058bc3f4c235ea6be4010fd61b28e1fbb275462b53775c04be9022d38b6a2e0387dddba86a3f8554d2858044a59fddbd594753fc056fe33c8daddb85dc70d164690b1182209ff84824e0be10e35c379f2f378bf176a9f7cb94d95e44d90276a298c8810f741c9":exp:50:exp:47:exp:51:int:129:exp:53
+
+Verify ext RSA #15 (PKCS1 v2.1, salt_len = ANY, sig_len too short)
+depends_on:12:15
+8:hex:"c0719e9a8d5d838d861dc6f675c899d2b309a3a65bb9fe6b11e5afcbf9a2c0b1":exp:47:int:1024:char*:"00dd118a9f99bab068ca2aea3b6a6d5997ed4ec954e40deecea07da01eaae80ec2bb1340db8a128e891324a5c5f5fad8f590d7c8cacbc5fe931dafda1223735279461abaa0572b761631b3a8afe7389b088b63993a0a25ee45d21858bab9931aedd4589a631b37fcf714089f856549f359326dd1e0e86dde52ed66b4a90bda4095":char*:"010001":hex:"0d2bdb0456a3d651d5bd48a4204493898f72cf1aaddd71387cc058bc3f4c235ea6be4010fd61b28e1fbb275462b53775c04be9022d38b6a2e0387dddba86a3f8554d2858044a59fddbd594753fc056fe33c8daddb85dc70d164690b1182209ff84824e0be10e35c379f2f378bf176a9f7cb94d95e44d90276a298c8810f741c9":exp:50:exp:47:exp:51:int:127:exp:40
+
+Verify ext RSA #16 (PKCS1 v2.1, salt_len = max, sig_len too short)
+depends_on:12:15
+8:hex:"c0719e9a8d5d838d861dc6f675c899d2b309a3a65bb9fe6b11e5afcbf9a2c0b1":exp:47:int:1024:char*:"00dd118a9f99bab068ca2aea3b6a6d5997ed4ec954e40deecea07da01eaae80ec2bb1340db8a128e891324a5c5f5fad8f590d7c8cacbc5fe931dafda1223735279461abaa0572b761631b3a8afe7389b088b63993a0a25ee45d21858bab9931aedd4589a631b37fcf714089f856549f359326dd1e0e86dde52ed66b4a90bda4095":char*:"010001":hex:"0d2bdb0456a3d651d5bd48a4204493898f72cf1aaddd71387cc058bc3f4c235ea6be4010fd61b28e1fbb275462b53775c04be9022d38b6a2e0387dddba86a3f8554d2858044a59fddbd594753fc056fe33c8daddb85dc70d164690b1182209ff84824e0be10e35c379f2f378bf176a9f7cb94d95e44d90276a298c8810f741c9":exp:50:exp:47:int:94:int:127:exp:40
+
+Verify ext RSA #17 (PKCS1 v2.1, salt_len = ANY, wrong message, sig_len too short)
+depends_on:12:15
+8:hex:"ae6e43dd387c25741e42fc3570cdfc52e4f51a2343294f3b677dfe01cd5339f6":exp:47:int:1024:char*:"00dd118a9f99bab068ca2aea3b6a6d5997ed4ec954e40deecea07da01eaae80ec2bb1340db8a128e891324a5c5f5fad8f590d7c8cacbc5fe931dafda1223735279461abaa0572b761631b3a8afe7389b088b63993a0a25ee45d21858bab9931aedd4589a631b37fcf714089f856549f359326dd1e0e86dde52ed66b4a90bda4095":char*:"010001":hex:"0d2bdb0456a3d651d5bd48a4204493898f72cf1aaddd71387cc058bc3f4c235ea6be4010fd61b28e1fbb275462b53775c04be9022d38b6a2e0387dddba86a3f8554d2858044a59fddbd594753fc056fe33c8daddb85dc70d164690b1182209ff84824e0be10e35c379f2f378bf176a9f7cb94d95e44d90276a298c8810f741c9":exp:50:exp:47:exp:51:int:127:exp:40
+
+Verify ext RSA #18 (PKCS1 v2.1, salt_len = max, wrong message, sig_len too short)
+depends_on:12:15
+8:hex:"ae6e43dd387c25741e42fc3570cdfc52e4f51a2343294f3b677dfe01cd5339f6":exp:47:int:1024:char*:"00dd118a9f99bab068ca2aea3b6a6d5997ed4ec954e40deecea07da01eaae80ec2bb1340db8a128e891324a5c5f5fad8f590d7c8cacbc5fe931dafda1223735279461abaa0572b761631b3a8afe7389b088b63993a0a25ee45d21858bab9931aedd4589a631b37fcf714089f856549f359326dd1e0e86dde52ed66b4a90bda4095":char*:"010001":hex:"0d2bdb0456a3d651d5bd48a4204493898f72cf1aaddd71387cc058bc3f4c235ea6be4010fd61b28e1fbb275462b53775c04be9022d38b6a2e0387dddba86a3f8554d2858044a59fddbd594753fc056fe33c8daddb85dc70d164690b1182209ff84824e0be10e35c379f2f378bf176a9f7cb94d95e44d90276a298c8810f741c9":exp:50:exp:47:int:94:int:127:exp:40
+
+Verify ext RSA #19 (PKCS1 v2.1, salt_len = ANY, wrong message, sig_len too long)
+depends_on:12:15
+8:hex:"ae6e43dd387c25741e42fc3570cdfc52e4f51a2343294f3b677dfe01cd5339f6":exp:47:int:1024:char*:"00dd118a9f99bab068ca2aea3b6a6d5997ed4ec954e40deecea07da01eaae80ec2bb1340db8a128e891324a5c5f5fad8f590d7c8cacbc5fe931dafda1223735279461abaa0572b761631b3a8afe7389b088b63993a0a25ee45d21858bab9931aedd4589a631b37fcf714089f856549f359326dd1e0e86dde52ed66b4a90bda4095":char*:"010001":hex:"0d2bdb0456a3d651d5bd48a4204493898f72cf1aaddd71387cc058bc3f4c235ea6be4010fd61b28e1fbb275462b53775c04be9022d38b6a2e0387dddba86a3f8554d2858044a59fddbd594753fc056fe33c8daddb85dc70d164690b1182209ff84824e0be10e35c379f2f378bf176a9f7cb94d95e44d90276a298c8810f741c9":exp:50:exp:47:exp:51:int:129:exp:40
+
+Verify ext RSA #20 (PKCS1 v2.1, salt_len = max, wrong message, sig_len too long)
+depends_on:12:15
+8:hex:"ae6e43dd387c25741e42fc3570cdfc52e4f51a2343294f3b677dfe01cd5339f6":exp:47:int:1024:char*:"00dd118a9f99bab068ca2aea3b6a6d5997ed4ec954e40deecea07da01eaae80ec2bb1340db8a128e891324a5c5f5fad8f590d7c8cacbc5fe931dafda1223735279461abaa0572b761631b3a8afe7389b088b63993a0a25ee45d21858bab9931aedd4589a631b37fcf714089f856549f359326dd1e0e86dde52ed66b4a90bda4095":char*:"010001":hex:"0d2bdb0456a3d651d5bd48a4204493898f72cf1aaddd71387cc058bc3f4c235ea6be4010fd61b28e1fbb275462b53775c04be9022d38b6a2e0387dddba86a3f8554d2858044a59fddbd594753fc056fe33c8daddb85dc70d164690b1182209ff84824e0be10e35c379f2f378bf176a9f7cb94d95e44d90276a298c8810f741c9":exp:50:exp:47:int:94:int:129:exp:40
+
+Check pair #1 (EC, OK)
+depends_on:1:6:18
+6:char*:"../framework/data_files/ec_256_pub.pem":char*:"../framework/data_files/ec_256_prv.pem":int:0
+
+Check pair #2 (EC, bad)
+depends_on:1:6:18
+6:char*:"../framework/data_files/ec_256_pub.pem":char*:"../framework/data_files/server5.key":exp:54
+
+Check pair #3 (RSA, OK)
+depends_on:0:11:18
+6:char*:"../framework/data_files/server1.pubkey":char*:"../framework/data_files/server1.key":int:0
+
+Check pair #4 (RSA, bad)
+depends_on:0:11:18
+6:char*:"../framework/data_files/server1.pubkey":char*:"../framework/data_files/server2.key":exp:55
+
+Check pair #5 (RSA vs EC)
+depends_on:1:6:0:18
+6:char*:"../framework/data_files/ec_256_pub.pem":char*:"../framework/data_files/server1.key":exp:45
+
+RSA hash_len overflow (size_t vs unsigned int)
+depends_on:0:19
+16
+
+ECDSA restartable sign/verify: ECDSA, max_ops=0 (disabled)
+depends_on:6:15
+10:exp:10:exp:11:char*:"C9AFA9D845BA75166B5C215767B1D6934E50C3DB36E89B127B8A622B120F6721":char*:"60FED4BA255A9D31C961EB74C6356D68C049B8923B61FA6CE669622E60F29FB6":char*:"7903FE1008B8BC99A41AE9E95628BC64F2F1B20C2D7E9F5177A3C294D4462299":exp:47:hex:"9f86d081884c7d659a2feaa0c55ad015a3bf4f1b2b0b822cd15d6c15b0f00a08":hex:"3045022100f1abb023518351cd71d881567b1ea663ed3efcf6c5132b354f28d3b0b7d383670220019f4113742a2b14bd25926b49c649155f267e60d3814b4c0cc84250e46f0083":int:0:int:0:int:0
+
+ECDSA restartable sign/verify: ECKEY, max_ops=0 (disabled)
+depends_on:6:15
+10:exp:5:exp:11:char*:"C9AFA9D845BA75166B5C215767B1D6934E50C3DB36E89B127B8A622B120F6721":char*:"60FED4BA255A9D31C961EB74C6356D68C049B8923B61FA6CE669622E60F29FB6":char*:"7903FE1008B8BC99A41AE9E95628BC64F2F1B20C2D7E9F5177A3C294D4462299":exp:47:hex:"9f86d081884c7d659a2feaa0c55ad015a3bf4f1b2b0b822cd15d6c15b0f00a08":hex:"3045022100f1abb023518351cd71d881567b1ea663ed3efcf6c5132b354f28d3b0b7d383670220019f4113742a2b14bd25926b49c649155f267e60d3814b4c0cc84250e46f0083":int:0:int:0:int:0
+
+ECDSA restartable sign/verify: ECDSA, max_ops=1
+depends_on:6:15
+10:exp:10:exp:11:char*:"C9AFA9D845BA75166B5C215767B1D6934E50C3DB36E89B127B8A622B120F6721":char*:"60FED4BA255A9D31C961EB74C6356D68C049B8923B61FA6CE669622E60F29FB6":char*:"7903FE1008B8BC99A41AE9E95628BC64F2F1B20C2D7E9F5177A3C294D4462299":exp:47:hex:"9f86d081884c7d659a2feaa0c55ad015a3bf4f1b2b0b822cd15d6c15b0f00a08":hex:"3045022100f1abb023518351cd71d881567b1ea663ed3efcf6c5132b354f28d3b0b7d383670220019f4113742a2b14bd25926b49c649155f267e60d3814b4c0cc84250e46f0083":int:1:int:1:int:10000
+
+ECDSA restartable sign/verify: ECKEY, max_ops=1
+depends_on:6:15
+10:exp:5:exp:11:char*:"C9AFA9D845BA75166B5C215767B1D6934E50C3DB36E89B127B8A622B120F6721":char*:"60FED4BA255A9D31C961EB74C6356D68C049B8923B61FA6CE669622E60F29FB6":char*:"7903FE1008B8BC99A41AE9E95628BC64F2F1B20C2D7E9F5177A3C294D4462299":exp:47:hex:"9f86d081884c7d659a2feaa0c55ad015a3bf4f1b2b0b822cd15d6c15b0f00a08":hex:"3045022100f1abb023518351cd71d881567b1ea663ed3efcf6c5132b354f28d3b0b7d383670220019f4113742a2b14bd25926b49c649155f267e60d3814b4c0cc84250e46f0083":int:1:int:1:int:10000
+
+ECDSA restartable sign/verify: ECDSA, max_ops=10000
+depends_on:6:15
+10:exp:10:exp:11:char*:"C9AFA9D845BA75166B5C215767B1D6934E50C3DB36E89B127B8A622B120F6721":char*:"60FED4BA255A9D31C961EB74C6356D68C049B8923B61FA6CE669622E60F29FB6":char*:"7903FE1008B8BC99A41AE9E95628BC64F2F1B20C2D7E9F5177A3C294D4462299":exp:47:hex:"9f86d081884c7d659a2feaa0c55ad015a3bf4f1b2b0b822cd15d6c15b0f00a08":hex:"3045022100f1abb023518351cd71d881567b1ea663ed3efcf6c5132b354f28d3b0b7d383670220019f4113742a2b14bd25926b49c649155f267e60d3814b4c0cc84250e46f0083":int:10000:int:0:int:0
+
+ECDSA restartable sign/verify: ECKEY, max_ops=10000
+depends_on:6:15
+10:exp:5:exp:11:char*:"C9AFA9D845BA75166B5C215767B1D6934E50C3DB36E89B127B8A622B120F6721":char*:"60FED4BA255A9D31C961EB74C6356D68C049B8923B61FA6CE669622E60F29FB6":char*:"7903FE1008B8BC99A41AE9E95628BC64F2F1B20C2D7E9F5177A3C294D4462299":exp:47:hex:"9f86d081884c7d659a2feaa0c55ad015a3bf4f1b2b0b822cd15d6c15b0f00a08":hex:"3045022100f1abb023518351cd71d881567b1ea663ed3efcf6c5132b354f28d3b0b7d383670220019f4113742a2b14bd25926b49c649155f267e60d3814b4c0cc84250e46f0083":int:10000:int:0:int:0
+
+ECDSA restartable sign/verify: ECDSA, max_ops=250
+depends_on:6:15
+10:exp:10:exp:11:char*:"C9AFA9D845BA75166B5C215767B1D6934E50C3DB36E89B127B8A622B120F6721":char*:"60FED4BA255A9D31C961EB74C6356D68C049B8923B61FA6CE669622E60F29FB6":char*:"7903FE1008B8BC99A41AE9E95628BC64F2F1B20C2D7E9F5177A3C294D4462299":exp:47:hex:"9f86d081884c7d659a2feaa0c55ad015a3bf4f1b2b0b822cd15d6c15b0f00a08":hex:"3045022100f1abb023518351cd71d881567b1ea663ed3efcf6c5132b354f28d3b0b7d383670220019f4113742a2b14bd25926b49c649155f267e60d3814b4c0cc84250e46f0083":int:250:int:2:int:64
+
+ECDSA restartable sign/verify: ECKEY, max_ops=250
+depends_on:6:15
+10:exp:5:exp:11:char*:"C9AFA9D845BA75166B5C215767B1D6934E50C3DB36E89B127B8A622B120F6721":char*:"60FED4BA255A9D31C961EB74C6356D68C049B8923B61FA6CE669622E60F29FB6":char*:"7903FE1008B8BC99A41AE9E95628BC64F2F1B20C2D7E9F5177A3C294D4462299":exp:47:hex:"9f86d081884c7d659a2feaa0c55ad015a3bf4f1b2b0b822cd15d6c15b0f00a08":hex:"3045022100f1abb023518351cd71d881567b1ea663ed3efcf6c5132b354f28d3b0b7d383670220019f4113742a2b14bd25926b49c649155f267e60d3814b4c0cc84250e46f0083":int:250:int:2:int:64
+
+PSA wrapped sign: SECP256R1
+depends_on:9:6
+18:exp:14:int:256:int:0
+
+PSA wrapped sign: SECP384R1
+depends_on:9:7
+18:exp:14:int:384:int:0
+
+PSA wrapped sign: SECP521R1
+depends_on:9:8
+18:exp:14:int:521:int:0
+
+PSA wrapped sign: SECP192K1
+depends_on:9:20
+18:exp:56:int:192:int:0
+
+PSA wrapped sign: SECP256K1
+depends_on:9:21
+18:exp:56:int:256:int:0
+
+PSA wrapped sign: BP256R1
+depends_on:9:13
+18:exp:57:int:256:int:0
+
+PSA wrapped sign: BP384R1
+depends_on:9:22
+18:exp:57:int:384:int:0
+
+PSA wrapped sign: BP512R1
+depends_on:9:14
+18:exp:57:int:512:int:0
+
+PSA wrapped sign: RSA PKCS1 v1.5
+depends_on:0:11
+18:exp:27:int:1024:exp:38
+
+PSA wrapped sign: RSA PKCS1 v2.1
+depends_on:0:12
+18:exp:27:int:1024:exp:41
+
+PK sign ext: RSA2048, PK_RSA, MD_SHA256
+depends_on:11:15:0
+19:exp:0:int:2048:exp:0:exp:47
+
+PK sign ext: RSA2048, PK_RSASSA_PSS, MD_SHA256
+depends_on:12:15:0
+19:exp:0:int:2048:exp:50:exp:47
+
+PK sign ext: RSA2048, PK_RSA, MD_SHA384
+depends_on:11:23:0
+19:exp:0:int:2048:exp:0:exp:58
+
+PK sign ext: RSA2048, PK_RSASSA_PSS, MD_SHA384
+depends_on:12:23:0
+19:exp:0:int:2048:exp:50:exp:58
+
+PK sign ext: RSA2048, PK_RSA, MD_SHA512
+depends_on:11:24:0
+19:exp:0:int:2048:exp:0:exp:59
+
+PK sign ext: RSA2048, PK_RSASSA_PSS, MD_SHA512
+depends_on:12:24:0
+19:exp:0:int:2048:exp:50:exp:59
+
+PK sign ext: SECP256R1, PK_ECDSA, MD_SHA256
+depends_on:9:6:15
+19:exp:10:exp:11:exp:10:exp:47
+
+PK sign ext: SECP384R1, PK_ECDSA, MD_SHA384
+depends_on:9:7:23
+19:exp:10:exp:12:exp:10:exp:58
+
+PK sign ext: SECP521R1, PK_ECDSA, MD_SHA512
+depends_on:9:8:24
+19:exp:10:exp:13:exp:10:exp:59
+
+PSA wrapped sign ext: RSA2048, PK_RSA, MD_SHA256
+depends_on:11:15:0
+20:exp:0:int:2048:exp:0:exp:47
+
+PSA wrapped sign ext: RSA2048, PK_RSASSA_PSS, MD_SHA256
+depends_on:12:15:0
+20:exp:0:int:2048:exp:50:exp:47
+
+PSA wrapped sign ext: RSA2048, PK_RSA, MD_SHA384
+depends_on:11:23:0
+20:exp:0:int:2048:exp:0:exp:58
+
+PSA wrapped sign ext: RSA2048, PK_RSASSA_PSS, MD_SHA384
+depends_on:12:23:0
+20:exp:0:int:2048:exp:50:exp:58
+
+PSA wrapped sign ext: RSA2048, PK_RSA, MD_SHA512
+depends_on:11:24:0
+20:exp:0:int:2048:exp:0:exp:59
+
+PSA wrapped sign ext: RSA2048, PK_RSASSA_PSS, MD_SHA512
+depends_on:12:24:0
+20:exp:0:int:2048:exp:50:exp:59
+
+PSA attributes for pk: NONE (bad)
+23:exp:60:exp:61:exp:62:exp:52
+
+PSA attributes for pk: RSA usage=0 (bad)
+depends_on:0:11
+23:exp:0:exp:63:int:0:exp:45
+
+PSA attributes for pk: RSA usage=EXPORT (bad)
+depends_on:0:11
+23:exp:0:exp:63:exp:64:exp:45
+
+PSA attributes for pk: RSA usage=DECRYPT|EXPORT (bad)
+depends_on:0:11
+23:exp:0:exp:63:exp:65:exp:45
+
+PSA attributes for pk: RSA usage=DECRYPT|SIGN_MESSAGE (bad)
+depends_on:0:11
+23:exp:0:exp:63:exp:66:exp:45
+
+PSA attributes for pk: RSA usage=SIGN_MESSAGE|SIGN_HASH (bad)
+depends_on:0:11
+23:exp:0:exp:63:exp:67:exp:45
+
+PSA attributes for pk: RSA usage=SIGN_MESSAGE|VERIFY_MESSAGE (bad)
+depends_on:0:11
+23:exp:0:exp:63:exp:68:exp:45
+
+PSA attributes for pk: RSA v15 pair DECRYPT
+depends_on:0:11
+21:exp:0:exp:63:exp:35:int:1:exp:20
+
+PSA attributes for pk: RSA v21 SHA-256 pair DECRYPT
+depends_on:0:12:15
+22:exp:47:exp:63:exp:35:int:1:exp:69
+
+PSA attributes for pk: RSA v21 SHA-512 pair DECRYPT
+depends_on:0:12:24
+22:exp:59:exp:63:exp:35:int:1:exp:70
+
+PSA attributes for pk: RSA v15 pair->public ENCRYPT
+depends_on:0:11
+21:exp:0:exp:63:exp:37:int:0:exp:20
+
+PSA attributes for pk: RSA v21 SHA-256 pair->public ENCRYPT
+depends_on:0:12:15
+22:exp:47:exp:63:exp:37:int:0:exp:69
+
+PSA attributes for pk: RSA v21 SHA-512 pair->public ENCRYPT
+depends_on:0:12:24
+22:exp:59:exp:63:exp:37:int:0:exp:70
+
+PSA attributes for pk: RSA v15 public ENCRYPT
+depends_on:0:11
+21:exp:0:exp:61:exp:37:int:0:exp:20
+
+PSA attributes for pk: RSA v21 SHA-256 public ENCRYPT
+depends_on:0:12:15
+22:exp:47:exp:61:exp:37:int:0:exp:69
+
+PSA attributes for pk: RSA v21 SHA-512 public ENCRYPT
+depends_on:0:12:24
+22:exp:59:exp:61:exp:37:int:0:exp:70
+
+PSA attributes for pk: RSA v15 public DECRYPT (bad)
+depends_on:0:11
+23:exp:0:exp:61:exp:35:exp:45
+
+PSA attributes for pk: RSA v15 pair SIGN_MESSAGE
+depends_on:0:11
+21:exp:0:exp:63:exp:62:int:1:exp:28
+
+PSA attributes for pk: RSA v21 SHA-256 pair SIGN_MESSAGE
+depends_on:0:12
+22:exp:48:exp:63:exp:62:int:1:exp:71
+
+PSA attributes for pk: RSA v15 pair SIGN_HASH
+depends_on:0:11
+21:exp:0:exp:63:exp:15:int:1:exp:28
+
+PSA attributes for pk: RSA v21 SHA-256 pair SIGN_HASH
+depends_on:0:12
+22:exp:48:exp:63:exp:15:int:1:exp:71
+
+PSA attributes for pk: RSA v15 pair->public VERIFY_MESSAGE
+depends_on:0:11
+21:exp:0:exp:63:exp:72:int:0:exp:28
+
+PSA attributes for pk: RSA v21 SHA-256 pair->public VERIFY_MESSAGE
+depends_on:0:12
+22:exp:48:exp:63:exp:72:int:0:exp:71
+
+PSA attributes for pk: RSA v15 pair->public VERIFY_HASH
+depends_on:0:11
+21:exp:0:exp:63:exp:73:int:0:exp:28
+
+PSA attributes for pk: RSA v21 SHA-256 pair->public VERIFY_HASH
+depends_on:0:12
+22:exp:48:exp:63:exp:73:int:0:exp:71
+
+PSA attributes for pk: RSA v15 public VERIFY_MESSAGE
+depends_on:0:11
+21:exp:0:exp:61:exp:72:int:0:exp:28
+
+PSA attributes for pk: RSA v21 SHA-256 public VERIFY_MESSAGE
+depends_on:0:12
+22:exp:48:exp:61:exp:72:int:0:exp:71
+
+PSA attributes for pk: RSA v15 public VERIFY_HASH
+depends_on:0:11
+21:exp:0:exp:61:exp:73:int:0:exp:28
+
+PSA attributes for pk: RSA v21 SHA-256 public VERIFY_HASH
+depends_on:0:12
+22:exp:48:exp:61:exp:73:int:0:exp:71
+
+PSA attributes for pk: RSA v15 public SIGN_MESSAGE (bad)
+depends_on:0:11
+23:exp:0:exp:61:exp:62:exp:45
+
+PSA attributes for pk: RSA v15 public SIGN_HASH (bad)
+depends_on:0:11
+23:exp:0:exp:61:exp:15:exp:45
+
+PSA attributes for pk: RSA v15 pair DERIVE (bad)
+depends_on:0:11
+23:exp:0:exp:63:exp:25:exp:45
+
+PSA attributes for pk: RSA v15 public DERIVE (bad)
+depends_on:0:11
+23:exp:0:exp:61:exp:25:exp:45
+
+PSA attributes for pk: ECKEY pair DECRYPT (bad)
+depends_on:1:25
+23:exp:5:exp:63:exp:35:exp:45
+
+PSA attributes for pk: ECKEY_DH pair DECRYPT (bad)
+depends_on:1:25
+23:exp:7:exp:63:exp:35:exp:45
+
+PSA attributes for pk: ECDSA pair DECRYPT (bad)
+depends_on:1:25:26
+23:exp:10:exp:63:exp:35:exp:45
+
+PSA attributes for pk: ECKEY public DECRYPT (bad)
+depends_on:1:25
+23:exp:5:exp:61:exp:35:exp:45
+
+PSA attributes for pk: ECKEY_DH public DECRYPT (bad)
+depends_on:1:25
+23:exp:7:exp:61:exp:35:exp:45
+
+PSA attributes for pk: ECDSA public DECRYPT (bad)
+depends_on:1:25:26
+23:exp:10:exp:61:exp:35:exp:45
+
+PSA attributes for pk: ECKEY pair ENCRYPT (bad)
+depends_on:1:25
+23:exp:5:exp:63:exp:37:exp:45
+
+PSA attributes for pk: ECKEY_DH pair ENCRYPT (bad)
+depends_on:1:25
+23:exp:7:exp:63:exp:37:exp:45
+
+PSA attributes for pk: ECDSA pair ENCRYPT (bad)
+depends_on:1:25:26
+23:exp:10:exp:63:exp:37:exp:45
+
+PSA attributes for pk: ECKEY public ENCRYPT (bad)
+depends_on:1:25
+23:exp:5:exp:61:exp:37:exp:45
+
+PSA attributes for pk: ECKEY_DH public ENCRYPT (bad)
+depends_on:1:25
+23:exp:7:exp:61:exp:37:exp:45
+
+PSA attributes for pk: ECDSA public ENCRYPT (bad)
+depends_on:1:25:26
+23:exp:10:exp:61:exp:37:exp:45
+
+PSA attributes for pk: ECKEY pair DERIVE
+depends_on:1:25
+21:exp:5:exp:63:exp:25:int:1:exp:22
+
+PSA attributes for pk: ECKEY_DH pair DERIVE
+depends_on:1:25
+21:exp:7:exp:63:exp:25:int:1:exp:22
+
+PSA attributes for pk: ECDSA pair DERIVE (bad)
+depends_on:1:25:26
+23:exp:10:exp:63:exp:25:exp:45
+
+PSA attributes for pk: ECKEY public DERIVE (bad)
+depends_on:1:25
+23:exp:5:exp:61:exp:25:exp:45
+
+PSA attributes for pk: ECKEY_DH public DERIVE (bad)
+depends_on:1:25
+23:exp:7:exp:61:exp:25:exp:45
+
+PSA attributes for pk: ECDSA public DERIVE (bad)
+depends_on:1:25:26
+23:exp:10:exp:61:exp:25:exp:45
+
+PSA attributes for pk: ECKEY pair SIGN_MESSAGE
+depends_on:1:25
+21:exp:5:exp:63:exp:62:int:1:exp:16
+
+PSA attributes for pk: ECDSA pair SIGN_MESSAGE
+depends_on:1:25:26
+21:exp:10:exp:63:exp:62:int:1:exp:16
+
+PSA attributes for pk: ECKEY pair SIGN_HASH
+depends_on:1:25
+21:exp:5:exp:63:exp:15:int:1:exp:16
+
+PSA attributes for pk: ECDSA pair SIGN_HASH
+depends_on:1:25:26
+21:exp:10:exp:63:exp:15:int:1:exp:16
+
+PSA attributes for pk: ECKEY pair->public VERIFY_MESSAGE
+depends_on:1:25
+21:exp:5:exp:63:exp:72:int:0:exp:16
+
+PSA attributes for pk: ECDSA pair->public VERIFY_MESSAGE
+depends_on:1:25:26
+21:exp:10:exp:63:exp:72:int:0:exp:16
+
+PSA attributes for pk: ECKEY pair->public VERIFY_HASH
+depends_on:1:25
+21:exp:5:exp:63:exp:73:int:0:exp:16
+
+PSA attributes for pk: ECDSA pair->public VERIFY_HASH
+depends_on:1:25:26
+21:exp:10:exp:63:exp:73:int:0:exp:16
+
+PSA attributes for pk: ECKEY public VERIFY_MESSAGE
+depends_on:1:25
+21:exp:5:exp:61:exp:72:int:0:exp:16
+
+PSA attributes for pk: ECDSA public VERIFY_MESSAGE
+depends_on:1:25:26
+21:exp:10:exp:61:exp:72:int:0:exp:16
+
+PSA attributes for pk: ECKEY public VERIFY_HASH
+depends_on:1:25
+21:exp:5:exp:61:exp:73:int:0:exp:16
+
+PSA attributes for pk: ECDSA public VERIFY_HASH
+depends_on:1:25:26
+21:exp:10:exp:61:exp:73:int:0:exp:16
+
+PSA attributes for pk: ECKEY public SIGN_MESSAGE (bad)
+depends_on:1:25
+23:exp:5:exp:61:exp:62:exp:45
+
+PSA attributes for pk: ECDSA public SIGN_MESSAGE (bad)
+depends_on:1:25:26
+23:exp:10:exp:61:exp:62:exp:45
+
+PSA attributes for pk: ECKEY public SIGN_HASH (bad)
+depends_on:1:25
+23:exp:5:exp:61:exp:15:exp:45
+
+PSA attributes for pk: ECDSA public SIGN_HASH (bad)
+depends_on:1:25:26
+23:exp:10:exp:61:exp:15:exp:45
+
+PSA attributes for pk: ECKEY_DH pair SIGN_MESSAGE (bad)
+depends_on:1:25
+23:exp:7:exp:63:exp:62:exp:45
+
+PSA attributes for pk: ECKEY_DH pair SIGN_HASH (bad)
+depends_on:1:25
+23:exp:7:exp:63:exp:15:exp:45
+
+PSA attributes for pk: ECKEY_DH pair VERIFY_MESSAGE (bad)
+depends_on:1:25
+23:exp:7:exp:63:exp:72:exp:45
+
+PSA attributes for pk: ECKEY_DH pair VERIFY_HASH (bad)
+depends_on:1:25
+23:exp:7:exp:63:exp:73:exp:45
+
+PSA attributes for pk: ECKEY_DH public SIGN_MESSAGE (bad)
+depends_on:1:25
+23:exp:7:exp:61:exp:62:exp:45
+
+PSA attributes for pk: ECKEY_DH public SIGN_HASH (bad)
+depends_on:1:25
+23:exp:7:exp:61:exp:15:exp:45
+
+PSA attributes for pk: ECKEY_DH public VERIFY_MESSAGE (bad)
+depends_on:1:25
+23:exp:7:exp:61:exp:72:exp:45
+
+PSA attributes for pk: ECKEY_DH public VERIFY_HASH (bad)
+depends_on:1:25
+23:exp:7:exp:61:exp:73:exp:45
+
+PSA attributes for pk: opaque RSA pair, 0 & SIGN_MESSAGE (bad policy)
+depends_on:0
+25:exp:27:exp:46:int:0:exp:33:exp:62:exp:45:int:1:int:0
+
+PSA attributes for pk: opaque RSA pair, SIGN_MESSAGE & SIGN_MESSAGE
+depends_on:0
+25:exp:27:exp:46:exp:62:exp:33:exp:62:int:0:int:1:exp:62
+
+PSA attributes for pk: opaque RSA pair, SIGN|VERIFY & SIGN_MESSAGE
+depends_on:0
+25:exp:27:exp:46:exp:68:exp:33:exp:62:int:0:int:1:exp:68
+
+PSA attributes for pk: opaque RSA pair, SIGN|DECRYPT & SIGN_MESSAGE
+depends_on:0
+25:exp:27:exp:46:exp:74:exp:33:exp:62:int:0:int:1:exp:74
+
+PSA attributes for pk: opaque RSA pair, SIGN|... & SIGN_MESSAGE
+depends_on:0
+25:exp:27:exp:46:exp:75:exp:33:exp:62:int:0:int:1:exp:75
+
+PSA attributes for pk: opaque RSA pair, SIGN|EXPORT|... & SIGN_MESSAGE
+depends_on:0
+25:exp:27:exp:46:exp:76:exp:33:exp:62:int:0:int:1:exp:76
+
+PSA attributes for pk: opaque RSA pair, SIGN|COPY|... & SIGN_MESSAGE
+depends_on:0
+25:exp:27:exp:46:exp:77:exp:33:exp:62:int:0:int:1:exp:77
+
+PSA attributes for pk: opaque RSA pair, SIGN|COPY|EXPORT... & SIGN_MESSAGE
+depends_on:0
+25:exp:27:exp:46:exp:78:exp:33:exp:62:int:0:int:1:exp:78
+
+PSA attributes for pk: opaque RSA pair, SIGN_MESSAGE & SIGN_HASH (bad policy)
+depends_on:0
+25:exp:27:exp:46:exp:62:exp:33:exp:15:exp:45:int:1:int:0
+
+PSA attributes for pk: opaque RSA pair, SIGN_HASH & SIGN_HASH [0]
+depends_on:0
+25:exp:27:exp:46:exp:15:exp:17:exp:15:int:0:int:1:exp:79
+
+PSA attributes for pk: opaque RSA pair, SIGN_HASH & SIGN_HASH [raw]
+depends_on:0
+25:exp:27:exp:46:exp:15:exp:33:exp:15:int:0:int:1:exp:79
+
+PSA attributes for pk: opaque RSA pair, SIGN_HASH & SIGN_HASH [v15]
+depends_on:0
+25:exp:27:exp:46:exp:15:exp:33:exp:15:int:0:int:1:exp:79
+
+PSA attributes for pk: opaque RSA pair, SIGN_HASH & SIGN_HASH [PSS]
+depends_on:0
+25:exp:27:exp:46:exp:15:exp:80:exp:15:int:0:int:1:exp:79
+
+PSA attributes for pk: opaque RSA pair, 0 & DECRYPT (bad policy)
+depends_on:0
+25:exp:27:exp:46:int:0:exp:20:exp:35:exp:45:int:1:int:0
+
+PSA attributes for pk: opaque RSA pair, DECRYPT & DECRYPT
+depends_on:0
+25:exp:27:exp:46:exp:35:exp:20:exp:35:int:0:int:1:exp:35
+
+PSA attributes for pk: opaque RSA pair, DECRYPT|... & DECRYPT
+depends_on:0
+25:exp:27:exp:46:exp:78:exp:20:exp:35:int:0:int:1:exp:78
+
+PSA attributes for pk: opaque RSA pair, ... & DERIVE (bad)
+depends_on:0
+25:exp:27:exp:46:exp:78:exp:20:exp:25:exp:45:int:1:int:0
+
+PSA attributes for pk: opaque RSA pair, ... & EXPORT (bad)
+depends_on:0
+25:exp:27:exp:46:exp:78:exp:20:exp:64:exp:45:int:1:int:0
+
+PSA attributes for pk: opaque RSA pair->public, VERIFY_MESSAGE & VERIFY_MESSAGE
+depends_on:0
+25:exp:27:exp:46:exp:72:exp:33:exp:72:int:0:int:0:exp:72
+
+PSA attributes for pk: opaque RSA pair->public, VERIFY_HASH & VERIFY_HASH
+depends_on:0
+25:exp:27:exp:46:exp:73:exp:33:exp:73:int:0:int:0:exp:81
+
+PSA attributes for pk: opaque RSA pair->public, ENCRYPT & ENCRYPT
+depends_on:0
+25:exp:27:exp:46:exp:37:exp:20:exp:37:int:0:int:0:exp:37
+
+PSA attributes for pk: opaque ECC pair, 0 & SIGN_MESSAGE (bad policy)
+depends_on:27:1
+25:exp:14:int:256:int:0:exp:82:exp:62:exp:45:int:1:int:0
+
+PSA attributes for pk: opaque ECC pair, SIGN_MESSAGE & SIGN_MESSAGE
+depends_on:27:1
+25:exp:14:int:256:exp:62:exp:82:exp:62:int:0:int:1:exp:62
+
+PSA attributes for pk: opaque ECC pair, SIGN|VERIFY & SIGN_MESSAGE
+depends_on:27:1
+25:exp:14:int:256:exp:68:exp:82:exp:62:int:0:int:1:exp:68
+
+PSA attributes for pk: opaque ECC pair, SIGN|DECRYPT & SIGN_MESSAGE
+depends_on:27:1
+25:exp:14:int:256:exp:74:exp:82:exp:62:int:0:int:1:exp:74
+
+PSA attributes for pk: opaque ECC pair, SIGN|... & SIGN_MESSAGE
+depends_on:27:1
+25:exp:14:int:256:exp:78:exp:82:exp:62:int:0:int:1:exp:78
+
+PSA attributes for pk: opaque ECC pair, SIGN_HASH & SIGN_HASH
+depends_on:27:1
+25:exp:14:int:256:exp:79:exp:82:exp:15:int:0:int:1:exp:79
+
+PSA attributes for pk: opaque ECC pair, ... & DERIVE
+depends_on:27:1
+25:exp:14:int:256:exp:83:exp:22:exp:25:int:0:int:1:exp:83
+
+PSA attributes for pk: opaque ECC pair, ... & DECRYPT (bad)
+depends_on:27:1
+25:exp:14:int:256:exp:83:exp:22:exp:35:exp:45:int:1:int:0
+
+PSA attributes for pk: opaque ECC pair, ... & EXPORT (bad)
+depends_on:27:1
+25:exp:14:int:256:exp:78:exp:22:exp:64:exp:45:int:1:int:0
+
+PSA attributes for pk: opaque ECC pair->public, VERIFY_MESSAGE & VERIFY_MESSAGE
+depends_on:27:1
+25:exp:14:int:256:exp:72:exp:82:exp:72:int:0:int:0:exp:72
+
+PSA attributes for pk: opaque ECC pair->public, VERIFY_HASH & VERIFY_HASH
+depends_on:27:1
+25:exp:14:int:256:exp:81:exp:82:exp:73:int:0:int:0:exp:81
+
+PSA attributes for pk: opaque ECC pair->public, ENCRYPT & ENCRYPT (bad)
+depends_on:27:1
+25:exp:14:int:256:exp:37:exp:82:exp:37:exp:45:int:0:int:0
+
+PSA import into PSA: RSA pair to ECC (bad)
+depends_on:0
+26:exp:0:exp:63:exp:14:int:0:exp:45
+
+PSA import into PSA: RSA public to RSA pair (bad)
+depends_on:0
+26:exp:0:exp:61:exp:27:int:0:exp:84
+
+PSA import into PSA: RSA pair to different bits (bad)
+depends_on:0
+26:exp:0:exp:63:exp:27:exp:85:exp:86
+
+PSA import into PSA: RSA public to different bits (bad)
+depends_on:0
+26:exp:0:exp:61:exp:87:exp:85:exp:86
+
+PSA import into PSA: RSA private to public, different bits (bad)
+depends_on:0
+26:exp:0:exp:63:exp:87:exp:85:exp:86
+
+PSA import into PSA: ECKEY pair to RSA (bad)
+depends_on:1:25
+26:exp:5:exp:63:exp:27:int:0:exp:45
+
+PSA import into PSA: ECKEY_DH pair to RSA (bad)
+depends_on:1:25
+26:exp:7:exp:63:exp:27:int:0:exp:45
+
+PSA import into PSA: ECDSA pair to RSA (bad)
+depends_on:1:25:26
+26:exp:10:exp:63:exp:27:int:0:exp:45
+
+PSA import into PSA: ECKEY pair to different curve (bad)
+depends_on:1:28
+26:exp:5:exp:63:exp:88:int:0:exp:45
+
+PSA import into PSA: ECKEY_DH pair to different curve (bad)
+depends_on:1:28
+26:exp:7:exp:63:exp:88:int:0:exp:45
+
+PSA import into PSA: ECDSA pair to different curve (bad)
+depends_on:1:28:26
+26:exp:10:exp:63:exp:88:int:0:exp:45
+
+PSA import into PSA: ECKEY pair to public, different curve (bad)
+depends_on:1:28
+26:exp:5:exp:63:exp:89:int:0:exp:45
+
+PSA import into PSA: ECKEY_DH pair to public, different curve (bad)
+depends_on:1:28
+26:exp:7:exp:63:exp:89:int:0:exp:45
+
+PSA import into PSA: ECDSA pair to public, different curve (bad)
+depends_on:1:28:26
+26:exp:10:exp:63:exp:89:int:0:exp:45
+
+PSA import into PSA: ECKEY public to different curve (bad)
+depends_on:1:28
+26:exp:5:exp:61:exp:89:int:0:exp:45
+
+PSA import into PSA: ECKEY_DH public to different curve (bad)
+depends_on:1:28
+26:exp:7:exp:61:exp:89:int:0:exp:45
+
+PSA import into PSA: ECDSA public to different curve (bad)
+depends_on:1:28:26
+26:exp:10:exp:61:exp:89:int:0:exp:45
+
+PSA import into PSA: ECKEY pair to different bits (bad)
+depends_on:1:29
+26:exp:5:exp:63:exp:90:exp:91:exp:45
+
+PSA import into PSA: ECKEY_DH pair to different bits (bad)
+depends_on:1:29
+26:exp:7:exp:63:exp:90:exp:91:exp:45
+
+PSA import into PSA: ECDSA pair to different bits (bad)
+depends_on:1:29:26
+26:exp:10:exp:63:exp:90:exp:91:exp:45
+
+PSA import into PSA: ECKEY public to different bits (bad)
+depends_on:1:29
+26:exp:5:exp:61:exp:92:exp:91:exp:45
+
+PSA import into PSA: ECKEY_DH public to different bits (bad)
+depends_on:1:29
+26:exp:7:exp:61:exp:92:exp:91:exp:45
+
+PSA import into PSA: ECDSA public to different bits (bad)
+depends_on:1:29:26
+26:exp:10:exp:61:exp:92:exp:91:exp:45
+
+PSA import into PSA: ECKEY private to public, different bits (bad)
+depends_on:1:29
+26:exp:5:exp:63:exp:92:exp:91:exp:45
+
+PSA import into PSA: ECKEY_DH private to public, different bits (bad)
+depends_on:1:29
+26:exp:7:exp:63:exp:92:exp:91:exp:45
+
+PSA import into PSA: ECDSA private to public, different bits (bad)
+depends_on:1:29:26
+26:exp:10:exp:63:exp:92:exp:91:exp:45
+
+PSA import into PSA: ECKEY public to pair (bad)
+depends_on:1:25
+26:exp:5:exp:61:exp:93:int:0:exp:45
+
+PSA import into PSA: ECKEY_DH public to pair (bad)
+depends_on:1:25
+26:exp:7:exp:61:exp:93:int:0:exp:45
+
+PSA import into PSA: ECDSA public to pair (bad)
+depends_on:1:25:26
+26:exp:10:exp:61:exp:93:int:0:exp:45
+
+PSA import into PSA: transparent -> volatile pair
+24:int:0:int:0:int:1:int:0:int:0
+
+PSA import into PSA: transparent -> persistent pair
+24:int:0:int:0:int:1:int:0:int:1
+
+PSA import into PSA: transparent -> volatile public
+24:int:0:int:0:int:1:int:1:int:0
+
+PSA import into PSA: transparent -> persistent public
+24:int:0:int:0:int:1:int:1:int:1
+
+PSA import into PSA: opaque volatile [export] -> volatile pair
+depends_on:17
+24:int:1:int:0:int:1:int:0:int:0
+
+PSA import into PSA: opaque volatile [export] -> persistent pair
+depends_on:17
+24:int:1:int:0:int:1:int:0:int:1
+
+PSA import into PSA: opaque volatile [export] -> volatile public
+depends_on:17
+24:int:1:int:0:int:1:int:1:int:0
+
+PSA import into PSA: opaque volatile [export] -> persistent public
+depends_on:17
+24:int:1:int:0:int:1:int:1:int:1
+
+PSA import into PSA: opaque volatile [copy] -> volatile pair
+depends_on:17
+24:int:1:int:0:int:0:int:0:int:0
+
+PSA import into PSA: opaque volatile [copy] -> persistent pair
+depends_on:17
+24:int:1:int:0:int:0:int:0:int:1
+
+PSA import into PSA: opaque volatile [copy] -> volatile public
+depends_on:17
+24:int:1:int:0:int:0:int:1:int:0
+
+PSA import into PSA: opaque volatile [copy] -> persistent public
+depends_on:17
+24:int:1:int:0:int:0:int:1:int:1
+
+PSA import into PSA: opaque persistent [export] -> volatile pair
+depends_on:17
+24:int:1:int:1:int:1:int:0:int:0
+
+PSA import into PSA: opaque persistent [export] -> persistent pair
+depends_on:17
+24:int:1:int:1:int:1:int:0:int:1
+
+PSA import into PSA: opaque persistent [export] -> volatile public
+depends_on:17
+24:int:1:int:1:int:1:int:1:int:0
+
+PSA import into PSA: opaque persistent [export] -> persistent public
+depends_on:17
+24:int:1:int:1:int:1:int:1:int:1
+
+PSA import into PSA: opaque persistent [copy] -> volatile pair
+depends_on:17
+24:int:1:int:1:int:0:int:0:int:0
+
+PSA import into PSA: opaque persistent [copy] -> persistent pair
+depends_on:17
+24:int:1:int:1:int:0:int:0:int:1
+
+PSA import into PSA: opaque persistent [copy] -> volatile public
+depends_on:17
+24:int:1:int:1:int:0:int:1:int:0
+
+PSA import into PSA: opaque persistent [copy] -> persistent public
+depends_on:17
+24:int:1:int:1:int:0:int:1:int:1
+
+PSA import into PSA: opaque RSA, COPY (ok)
+depends_on:30
+27:exp:27:exp:46:exp:94:exp:33:exp:27:exp:46:exp:94:exp:33:int:0
+
+PSA import into PSA: opaque RSA, EXPORT (ok)
+depends_on:30
+27:exp:27:exp:46:exp:95:exp:33:exp:27:exp:46:exp:95:exp:33:int:0
+
+PSA import into PSA: opaque RSA, no COPY/EXPORT (bad)
+depends_on:30
+27:exp:27:exp:46:exp:79:exp:33:exp:27:exp:46:exp:94:exp:33:exp:45
+
+PSA import into PSA: opaque RSA, COPY|EXPORT, different usage (restricted)
+depends_on:30
+27:exp:27:exp:46:exp:96:exp:33:exp:27:exp:46:exp:97:exp:33:int:0
+
+PSA import into PSA: opaque RSA, COPY, different usage (restricted)
+depends_on:30
+27:exp:27:exp:46:exp:97:exp:33:exp:27:exp:46:exp:97:exp:33:int:0
+
+PSA import into PSA: opaque RSA, EXPORT, different usage (ok)
+depends_on:30
+27:exp:27:exp:46:exp:98:exp:33:exp:27:exp:46:exp:95:exp:33:int:0
+
+PSA import into PSA: opaque RSA, COPY|EXPORT, different algorithm (ok)
+depends_on:30
+27:exp:27:exp:46:exp:99:exp:33:exp:27:exp:46:exp:99:exp:19:int:0
+
+PSA import into PSA: opaque RSA, COPY, different algorithm (bad)
+depends_on:30
+27:exp:27:exp:46:exp:94:exp:33:exp:27:exp:46:exp:97:exp:19:exp:45
+
+PSA import into PSA: opaque RSA, EXPORT, different algorithm (ok)
+depends_on:30
+27:exp:27:exp:46:exp:95:exp:33:exp:27:exp:46:exp:95:exp:19:int:0
+
+PSA import into PSA: opaque RSA, implicit bits (ok)
+depends_on:30
+27:exp:27:exp:46:exp:94:exp:33:exp:27:int:0:exp:94:exp:33:int:0
+
+PSA import into PSA: opaque RSA, different bits (bad)
+depends_on:30
+27:exp:27:exp:46:exp:94:exp:33:exp:27:exp:85:exp:94:exp:33:exp:45
+
+PSA import into PSA: opaque RSA, different type (bad)
+depends_on:30
+27:exp:27:exp:46:exp:94:int:0:exp:100:exp:46:exp:94:int:0:exp:45
+
+PSA import into PSA: opaque RSA to public (ok)
+depends_on:30
+27:exp:27:exp:46:exp:79:exp:33:exp:87:exp:46:exp:81:exp:33:int:0
+
+PSA import into PSA: opaque RSA to public, implicit bits (ok)
+depends_on:30
+27:exp:27:exp:46:exp:79:exp:33:exp:87:int:0:exp:81:exp:33:int:0
+
+PSA import into PSA: opaque RSA to public, different bits (bad)
+depends_on:30
+27:exp:27:exp:46:exp:79:exp:33:exp:87:exp:85:exp:81:exp:33:exp:86
+
+PSA import into PSA: opaque ECC, COPY (ok)
+depends_on:25:31
+27:exp:93:exp:101:exp:94:exp:16:exp:93:exp:101:exp:94:exp:16:int:0
+
+PSA import into PSA: opaque ECC, EXPORT (ok)
+depends_on:25:31
+27:exp:93:exp:101:exp:95:exp:16:exp:93:exp:101:exp:95:exp:16:int:0
+
+PSA import into PSA: opaque ECC, no COPY/EXPORT (bad)
+depends_on:25:31
+27:exp:93:exp:101:exp:79:exp:16:exp:93:exp:101:exp:94:exp:16:exp:45
+
+PSA import into PSA: opaque ECC, COPY|EXPORT, different usage (restricted)
+depends_on:25:31
+27:exp:93:exp:101:exp:96:exp:16:exp:93:exp:101:exp:97:exp:16:int:0
+
+PSA import into PSA: opaque ECC, COPY, different usage (restricted)
+depends_on:25:31
+27:exp:93:exp:101:exp:97:exp:16:exp:93:exp:101:exp:97:exp:16:int:0
+
+PSA import into PSA: opaque ECC, EXPORT, different usage (ok)
+depends_on:25:31
+27:exp:93:exp:101:exp:98:exp:16:exp:93:exp:101:exp:95:exp:16:int:0
+
+PSA import into PSA: opaque ECC, COPY|EXPORT, different algorithm (ok)
+depends_on:25:31
+27:exp:93:exp:101:exp:99:exp:16:exp:93:exp:101:exp:99:exp:102:int:0
+
+PSA import into PSA: opaque ECC, COPY, different algorithm (bad)
+depends_on:25:31
+27:exp:93:exp:101:exp:94:exp:16:exp:93:exp:101:exp:97:exp:102:exp:45
+
+PSA import into PSA: opaque ECC, EXPORT, different algorithm (ok)
+depends_on:25:31
+27:exp:93:exp:101:exp:95:exp:16:exp:93:exp:101:exp:95:exp:102:int:0
+
+PSA import into PSA: opaque ECC, implicit bits (ok)
+depends_on:25:31
+27:exp:93:exp:101:exp:94:exp:16:exp:93:int:0:exp:94:exp:16:int:0
+
+PSA import into PSA: opaque ECC, different bits (bad)
+depends_on:25:31
+27:exp:93:exp:101:exp:94:exp:16:exp:93:exp:103:exp:94:exp:16:exp:45
+
+PSA import into PSA: opaque ECC, different type (bad)
+depends_on:25:31
+27:exp:93:exp:101:exp:94:int:0:exp:100:exp:101:exp:94:int:0:exp:45
+
+PSA import into PSA: opaque ECC, different family (bad)
+depends_on:28:31
+27:exp:93:exp:101:exp:94:int:0:exp:88:exp:101:exp:94:int:0:exp:45
+
+PSA import into PSA: opaque ECC to public (ok)
+depends_on:25:31
+27:exp:93:exp:101:exp:79:exp:16:exp:104:exp:101:exp:81:exp:16:int:0
+
+PSA import into PSA: opaque ECC to public, implicit bits (ok)
+depends_on:25:31
+27:exp:93:exp:101:exp:79:exp:16:exp:104:int:0:exp:81:exp:16:int:0
+
+PSA import into PSA: opaque ECC to public, different bits (bad)
+depends_on:25:31
+27:exp:93:exp:101:exp:79:exp:16:exp:104:exp:103:exp:81:exp:16:exp:86
+
+PSA import into PSA: opaque ECC to public, different family (bad)
+depends_on:28:31
+27:exp:93:exp:101:exp:94:int:0:exp:89:exp:101:exp:94:int:0:exp:45
+
+Copy from PSA: use wrong parameters
+28
+
+Copy from PSA: accelerated key only, not available as built-in
+29
+
+Copy from PSA: valid EC (SECP_R1_256 + ECDSA + ANY_HASH)
+depends_on:6:9:5:32
+30:hex:"587CF7C57EB7C6254CBF80CC59846521B4FBCBA8BC4B362A9B043F0DEB49CCA1":exp:14:exp:16
+
+Copy from PSA: valid EC (SECP_R1_256 + ECDSA + SHA_256)
+depends_on:6:9:5:15
+30:hex:"587CF7C57EB7C6254CBF80CC59846521B4FBCBA8BC4B362A9B043F0DEB49CCA1":exp:14:exp:23
+
+Copy from PSA: valid EC (SECP_R1_256 + ECDSA + SHA_512)
+depends_on:6:9:5:24
+30:hex:"587CF7C57EB7C6254CBF80CC59846521B4FBCBA8BC4B362A9B043F0DEB49CCA1":exp:14:exp:105
+
+Copy from PSA: valid EC (SECP_R1_256 + DET_ECDSA + ANY_HASH)
+depends_on:6:9:5:33:32
+30:hex:"587CF7C57EB7C6254CBF80CC59846521B4FBCBA8BC4B362A9B043F0DEB49CCA1":exp:14:exp:106
+
+Copy from PSA: valid EC (SECP_R1_256 + DET_ECDSA + SHA_256)
+depends_on:6:9:5:33:15
+30:hex:"587CF7C57EB7C6254CBF80CC59846521B4FBCBA8BC4B362A9B043F0DEB49CCA1":exp:14:exp:102
+
+Copy from PSA: valid EC (SECP_R1_256 + DET_ECDSA + SHA_512)
+depends_on:6:9:5:33:24
+30:hex:"587CF7C57EB7C6254CBF80CC59846521B4FBCBA8BC4B362A9B043F0DEB49CCA1":exp:14:exp:107
+
+Copy from PSA: valid EC (SECP_R1_256 + ECDSA_ANY)
+depends_on:6:9:5:32
+30:hex:"587CF7C57EB7C6254CBF80CC59846521B4FBCBA8BC4B362A9B043F0DEB49CCA1":exp:14:exp:82
+
+Copy from PSA: valid EC (SECP_R1_521 + ECDSA + SHA_256)
+depends_on:8:9:5:15
+30:hex:"005dbb8e12240a62932b88cdd93c31cdd8873a2c15e40cc3c9f8e695b77fae015a44fe5267ef7868cb28cfb9579282fe060de44fe6de26f74a0d94afdaa870befbc5":exp:14:exp:23
+
+Copy from PSA: valid EC (SECP_K1_256 + ECDSA + SHA_256)
+depends_on:21:9:5:15
+30:hex:"7154f04fcc79ac9df1652dcf99031610592b2b27f74f5985690a987357ba0428":exp:56:exp:23
+
+Copy from PSA: valid EC, wrong alg (SECP_R1_256 + ECDH)
+depends_on:6:9:5:15
+30:hex:"587CF7C57EB7C6254CBF80CC59846521B4FBCBA8BC4B362A9B043F0DEB49CCA1":exp:14:exp:22
+
+Copy from PSA: valid EC, wrong alg (SECP_R1_256 + CMAC)
+depends_on:6:9:5:15
+30:hex:"587CF7C57EB7C6254CBF80CC59846521B4FBCBA8BC4B362A9B043F0DEB49CCA1":exp:14:exp:108
+
+Copy from PSA: valid RSA (PKCS1V15_SIGN + ANY_HASH)
+depends_on:0:11:32
+30:hex:"308204a40201000282010100ef24d80f6b7a0f62ab2f750a8370c1c39781abe2f7ae5cbc698ebbc51067af68c8b02e5bfafe0b296a2fdca8ee5327bf3370bd26c529d173c4356d8ad51f606ac730e3be509d8535c9c51927222d6c4e770efec4d9b0bd11410e5e2e01e093700d358aab8292297483c65870ea6d4ca9299f4347790f6223480732726a97b34bb4d53cb3f188e3c97115b029fa9a2cce4c6d935977a90737ac8b2a2c5691ad928b22681ca05ee38ddba2278c854f51281c5e4856090aca59bf719a167e63bb932580ae2b599e1a297194696e637a919bc9d2caf214e59d46ed1a12e591b608f2031744111551430d9ac39082957ae1ce03a88068896701e6ce19a83890ff5761020301000102820100706fb53a02c13fcc9749d7d09a9e002c12e6bfc715c6a00961e3defab74cd896fe8c7f2f75e1cda3aa2e58a400718e65822d0671dd0f5d4ffdb7550a8a4b974c7cdccaa72745f864a2ba0daa6d9247b2d89d6f41644c89883c3b2222a5754e3cc7a91dcaa7b84acf6249763998aeccf558016e638352ad44835006f2ee94e691d0070ce561677f2a22a12f357bd762c57f80f1f4921f0f26b3ed758478d11086c182874355ef5039e8d854291b9ce7f8b284ec81f141b7255313507f5ea159d6b1c0ee176e7743d3c65d536e1e4aaf24089c1e00c8021012b8846a4971a0695030504ace362077e8b2fcb4fbdd70bfb734a3fe7d9e1a25bdd0cb0f2fcb56ecc502818100f8fdfbac1c033911b5a184980d081f700f4d450cebf18cbdc68f160a5abd580e6f8f5800fd0b60521dbe2d549e82617afe70d2ad004c2f45405d94e4418e8c2b8da6bcaa407bbfa5477b5a6fceccfcb99f51c6c16bd17202d997bdcaec83b870e3e101acc05e0754020ec207ef5ec9934ac81cd617af72cd94b2bb400eb2078302818100f5dfe74a548c04950178f50130d5aadbe5d1f4b52527c0bfad9aa0d73731fb24219cb5ea5c4b4fa56133d5ea9225fa7d0ccc9bdcc78b77303a2e73c17e9a46b9b09020604496a849f069d0d87713e06a5d374271b2629f5ba220506b606a101828d20da9fcfa3a7e75b135987260be6d37622fc3f4bf4fd2dfd9655da5ff0c4b02818100d4d797c959f0cf59fa1f65ceec64e32ad189c5daf3ddf9e747d28c8eb15e65e5812bd19896b6a0d1d126fe6cf54a92b5a6c71ef04feed001acb1d253044f2c3716d14f396201e6a30c65bfbb0fd65ebaf61bdb80ffff7c2c3f80dcf69813491907531231700770d0392a1066e411ecd201fce9d98149b32355572b85e889faad028181009d898bc165709d52f7b18f91e6bf508d3ab08ed12df04da0c2d40b7039ce4d72b61299c082c8424cdd7dfff71f13346ec12fac42069cc68e6108f86427012485bfaa6904258e3e5fb9a9a305bf2e3e21087eea94bcce51fabd63650397affd85ed49c1358480b3cfe90ad5234b4dcf555d220d26c9ff765ecfcc94152fd1be070281804bf77b4bae8386772de830cc75f2d1d4b8221b3f817208e08c002ac0549902677e4f0e7bce5ba1b3da74fbbe138758e6853b4a5b7bf0672bc1170c64fa502a5e24e3472db433b4e30761eab6ebb9e207235fd88b97b1b30e14f364b628219d6e17056543a4e29a4de1e41ad37927ce23d0442623744bc35a1874296960029044":exp:27:exp:28
+
+Copy from PSA: valid RSA (PKCS1V15_SIGN + SHA_256)
+depends_on:0:11:15
+30:hex:"308204a40201000282010100ef24d80f6b7a0f62ab2f750a8370c1c39781abe2f7ae5cbc698ebbc51067af68c8b02e5bfafe0b296a2fdca8ee5327bf3370bd26c529d173c4356d8ad51f606ac730e3be509d8535c9c51927222d6c4e770efec4d9b0bd11410e5e2e01e093700d358aab8292297483c65870ea6d4ca9299f4347790f6223480732726a97b34bb4d53cb3f188e3c97115b029fa9a2cce4c6d935977a90737ac8b2a2c5691ad928b22681ca05ee38ddba2278c854f51281c5e4856090aca59bf719a167e63bb932580ae2b599e1a297194696e637a919bc9d2caf214e59d46ed1a12e591b608f2031744111551430d9ac39082957ae1ce03a88068896701e6ce19a83890ff5761020301000102820100706fb53a02c13fcc9749d7d09a9e002c12e6bfc715c6a00961e3defab74cd896fe8c7f2f75e1cda3aa2e58a400718e65822d0671dd0f5d4ffdb7550a8a4b974c7cdccaa72745f864a2ba0daa6d9247b2d89d6f41644c89883c3b2222a5754e3cc7a91dcaa7b84acf6249763998aeccf558016e638352ad44835006f2ee94e691d0070ce561677f2a22a12f357bd762c57f80f1f4921f0f26b3ed758478d11086c182874355ef5039e8d854291b9ce7f8b284ec81f141b7255313507f5ea159d6b1c0ee176e7743d3c65d536e1e4aaf24089c1e00c8021012b8846a4971a0695030504ace362077e8b2fcb4fbdd70bfb734a3fe7d9e1a25bdd0cb0f2fcb56ecc502818100f8fdfbac1c033911b5a184980d081f700f4d450cebf18cbdc68f160a5abd580e6f8f5800fd0b60521dbe2d549e82617afe70d2ad004c2f45405d94e4418e8c2b8da6bcaa407bbfa5477b5a6fceccfcb99f51c6c16bd17202d997bdcaec83b870e3e101acc05e0754020ec207ef5ec9934ac81cd617af72cd94b2bb400eb2078302818100f5dfe74a548c04950178f50130d5aadbe5d1f4b52527c0bfad9aa0d73731fb24219cb5ea5c4b4fa56133d5ea9225fa7d0ccc9bdcc78b77303a2e73c17e9a46b9b09020604496a849f069d0d87713e06a5d374271b2629f5ba220506b606a101828d20da9fcfa3a7e75b135987260be6d37622fc3f4bf4fd2dfd9655da5ff0c4b02818100d4d797c959f0cf59fa1f65ceec64e32ad189c5daf3ddf9e747d28c8eb15e65e5812bd19896b6a0d1d126fe6cf54a92b5a6c71ef04feed001acb1d253044f2c3716d14f396201e6a30c65bfbb0fd65ebaf61bdb80ffff7c2c3f80dcf69813491907531231700770d0392a1066e411ecd201fce9d98149b32355572b85e889faad028181009d898bc165709d52f7b18f91e6bf508d3ab08ed12df04da0c2d40b7039ce4d72b61299c082c8424cdd7dfff71f13346ec12fac42069cc68e6108f86427012485bfaa6904258e3e5fb9a9a305bf2e3e21087eea94bcce51fabd63650397affd85ed49c1358480b3cfe90ad5234b4dcf555d220d26c9ff765ecfcc94152fd1be070281804bf77b4bae8386772de830cc75f2d1d4b8221b3f817208e08c002ac0549902677e4f0e7bce5ba1b3da74fbbe138758e6853b4a5b7bf0672bc1170c64fa502a5e24e3472db433b4e30761eab6ebb9e207235fd88b97b1b30e14f364b628219d6e17056543a4e29a4de1e41ad37927ce23d0442623744bc35a1874296960029044":exp:27:exp:19
+
+Copy from PSA: valid RSA (PKCS1V15_SIGN + SHA_512)
+depends_on:0:11:24
+30:hex:"308204a40201000282010100ef24d80f6b7a0f62ab2f750a8370c1c39781abe2f7ae5cbc698ebbc51067af68c8b02e5bfafe0b296a2fdca8ee5327bf3370bd26c529d173c4356d8ad51f606ac730e3be509d8535c9c51927222d6c4e770efec4d9b0bd11410e5e2e01e093700d358aab8292297483c65870ea6d4ca9299f4347790f6223480732726a97b34bb4d53cb3f188e3c97115b029fa9a2cce4c6d935977a90737ac8b2a2c5691ad928b22681ca05ee38ddba2278c854f51281c5e4856090aca59bf719a167e63bb932580ae2b599e1a297194696e637a919bc9d2caf214e59d46ed1a12e591b608f2031744111551430d9ac39082957ae1ce03a88068896701e6ce19a83890ff5761020301000102820100706fb53a02c13fcc9749d7d09a9e002c12e6bfc715c6a00961e3defab74cd896fe8c7f2f75e1cda3aa2e58a400718e65822d0671dd0f5d4ffdb7550a8a4b974c7cdccaa72745f864a2ba0daa6d9247b2d89d6f41644c89883c3b2222a5754e3cc7a91dcaa7b84acf6249763998aeccf558016e638352ad44835006f2ee94e691d0070ce561677f2a22a12f357bd762c57f80f1f4921f0f26b3ed758478d11086c182874355ef5039e8d854291b9ce7f8b284ec81f141b7255313507f5ea159d6b1c0ee176e7743d3c65d536e1e4aaf24089c1e00c8021012b8846a4971a0695030504ace362077e8b2fcb4fbdd70bfb734a3fe7d9e1a25bdd0cb0f2fcb56ecc502818100f8fdfbac1c033911b5a184980d081f700f4d450cebf18cbdc68f160a5abd580e6f8f5800fd0b60521dbe2d549e82617afe70d2ad004c2f45405d94e4418e8c2b8da6bcaa407bbfa5477b5a6fceccfcb99f51c6c16bd17202d997bdcaec83b870e3e101acc05e0754020ec207ef5ec9934ac81cd617af72cd94b2bb400eb2078302818100f5dfe74a548c04950178f50130d5aadbe5d1f4b52527c0bfad9aa0d73731fb24219cb5ea5c4b4fa56133d5ea9225fa7d0ccc9bdcc78b77303a2e73c17e9a46b9b09020604496a849f069d0d87713e06a5d374271b2629f5ba220506b606a101828d20da9fcfa3a7e75b135987260be6d37622fc3f4bf4fd2dfd9655da5ff0c4b02818100d4d797c959f0cf59fa1f65ceec64e32ad189c5daf3ddf9e747d28c8eb15e65e5812bd19896b6a0d1d126fe6cf54a92b5a6c71ef04feed001acb1d253044f2c3716d14f396201e6a30c65bfbb0fd65ebaf61bdb80ffff7c2c3f80dcf69813491907531231700770d0392a1066e411ecd201fce9d98149b32355572b85e889faad028181009d898bc165709d52f7b18f91e6bf508d3ab08ed12df04da0c2d40b7039ce4d72b61299c082c8424cdd7dfff71f13346ec12fac42069cc68e6108f86427012485bfaa6904258e3e5fb9a9a305bf2e3e21087eea94bcce51fabd63650397affd85ed49c1358480b3cfe90ad5234b4dcf555d220d26c9ff765ecfcc94152fd1be070281804bf77b4bae8386772de830cc75f2d1d4b8221b3f817208e08c002ac0549902677e4f0e7bce5ba1b3da74fbbe138758e6853b4a5b7bf0672bc1170c64fa502a5e24e3472db433b4e30761eab6ebb9e207235fd88b97b1b30e14f364b628219d6e17056543a4e29a4de1e41ad37927ce23d0442623744bc35a1874296960029044":exp:27:exp:109
+
+Copy from PSA: valid RSA (PKCS1V15_CRYPT)
+depends_on:0:11:32
+30:hex:"308204a40201000282010100ef24d80f6b7a0f62ab2f750a8370c1c39781abe2f7ae5cbc698ebbc51067af68c8b02e5bfafe0b296a2fdca8ee5327bf3370bd26c529d173c4356d8ad51f606ac730e3be509d8535c9c51927222d6c4e770efec4d9b0bd11410e5e2e01e093700d358aab8292297483c65870ea6d4ca9299f4347790f6223480732726a97b34bb4d53cb3f188e3c97115b029fa9a2cce4c6d935977a90737ac8b2a2c5691ad928b22681ca05ee38ddba2278c854f51281c5e4856090aca59bf719a167e63bb932580ae2b599e1a297194696e637a919bc9d2caf214e59d46ed1a12e591b608f2031744111551430d9ac39082957ae1ce03a88068896701e6ce19a83890ff5761020301000102820100706fb53a02c13fcc9749d7d09a9e002c12e6bfc715c6a00961e3defab74cd896fe8c7f2f75e1cda3aa2e58a400718e65822d0671dd0f5d4ffdb7550a8a4b974c7cdccaa72745f864a2ba0daa6d9247b2d89d6f41644c89883c3b2222a5754e3cc7a91dcaa7b84acf6249763998aeccf558016e638352ad44835006f2ee94e691d0070ce561677f2a22a12f357bd762c57f80f1f4921f0f26b3ed758478d11086c182874355ef5039e8d854291b9ce7f8b284ec81f141b7255313507f5ea159d6b1c0ee176e7743d3c65d536e1e4aaf24089c1e00c8021012b8846a4971a0695030504ace362077e8b2fcb4fbdd70bfb734a3fe7d9e1a25bdd0cb0f2fcb56ecc502818100f8fdfbac1c033911b5a184980d081f700f4d450cebf18cbdc68f160a5abd580e6f8f5800fd0b60521dbe2d549e82617afe70d2ad004c2f45405d94e4418e8c2b8da6bcaa407bbfa5477b5a6fceccfcb99f51c6c16bd17202d997bdcaec83b870e3e101acc05e0754020ec207ef5ec9934ac81cd617af72cd94b2bb400eb2078302818100f5dfe74a548c04950178f50130d5aadbe5d1f4b52527c0bfad9aa0d73731fb24219cb5ea5c4b4fa56133d5ea9225fa7d0ccc9bdcc78b77303a2e73c17e9a46b9b09020604496a849f069d0d87713e06a5d374271b2629f5ba220506b606a101828d20da9fcfa3a7e75b135987260be6d37622fc3f4bf4fd2dfd9655da5ff0c4b02818100d4d797c959f0cf59fa1f65ceec64e32ad189c5daf3ddf9e747d28c8eb15e65e5812bd19896b6a0d1d126fe6cf54a92b5a6c71ef04feed001acb1d253044f2c3716d14f396201e6a30c65bfbb0fd65ebaf61bdb80ffff7c2c3f80dcf69813491907531231700770d0392a1066e411ecd201fce9d98149b32355572b85e889faad028181009d898bc165709d52f7b18f91e6bf508d3ab08ed12df04da0c2d40b7039ce4d72b61299c082c8424cdd7dfff71f13346ec12fac42069cc68e6108f86427012485bfaa6904258e3e5fb9a9a305bf2e3e21087eea94bcce51fabd63650397affd85ed49c1358480b3cfe90ad5234b4dcf555d220d26c9ff765ecfcc94152fd1be070281804bf77b4bae8386772de830cc75f2d1d4b8221b3f817208e08c002ac0549902677e4f0e7bce5ba1b3da74fbbe138758e6853b4a5b7bf0672bc1170c64fa502a5e24e3472db433b4e30761eab6ebb9e207235fd88b97b1b30e14f364b628219d6e17056543a4e29a4de1e41ad37927ce23d0442623744bc35a1874296960029044":exp:27:exp:20
+
+Copy from PSA: valid RSA (OAEP + SHA_256)
+depends_on:0:12:15
+30:hex:"308204a40201000282010100ef24d80f6b7a0f62ab2f750a8370c1c39781abe2f7ae5cbc698ebbc51067af68c8b02e5bfafe0b296a2fdca8ee5327bf3370bd26c529d173c4356d8ad51f606ac730e3be509d8535c9c51927222d6c4e770efec4d9b0bd11410e5e2e01e093700d358aab8292297483c65870ea6d4ca9299f4347790f6223480732726a97b34bb4d53cb3f188e3c97115b029fa9a2cce4c6d935977a90737ac8b2a2c5691ad928b22681ca05ee38ddba2278c854f51281c5e4856090aca59bf719a167e63bb932580ae2b599e1a297194696e637a919bc9d2caf214e59d46ed1a12e591b608f2031744111551430d9ac39082957ae1ce03a88068896701e6ce19a83890ff5761020301000102820100706fb53a02c13fcc9749d7d09a9e002c12e6bfc715c6a00961e3defab74cd896fe8c7f2f75e1cda3aa2e58a400718e65822d0671dd0f5d4ffdb7550a8a4b974c7cdccaa72745f864a2ba0daa6d9247b2d89d6f41644c89883c3b2222a5754e3cc7a91dcaa7b84acf6249763998aeccf558016e638352ad44835006f2ee94e691d0070ce561677f2a22a12f357bd762c57f80f1f4921f0f26b3ed758478d11086c182874355ef5039e8d854291b9ce7f8b284ec81f141b7255313507f5ea159d6b1c0ee176e7743d3c65d536e1e4aaf24089c1e00c8021012b8846a4971a0695030504ace362077e8b2fcb4fbdd70bfb734a3fe7d9e1a25bdd0cb0f2fcb56ecc502818100f8fdfbac1c033911b5a184980d081f700f4d450cebf18cbdc68f160a5abd580e6f8f5800fd0b60521dbe2d549e82617afe70d2ad004c2f45405d94e4418e8c2b8da6bcaa407bbfa5477b5a6fceccfcb99f51c6c16bd17202d997bdcaec83b870e3e101acc05e0754020ec207ef5ec9934ac81cd617af72cd94b2bb400eb2078302818100f5dfe74a548c04950178f50130d5aadbe5d1f4b52527c0bfad9aa0d73731fb24219cb5ea5c4b4fa56133d5ea9225fa7d0ccc9bdcc78b77303a2e73c17e9a46b9b09020604496a849f069d0d87713e06a5d374271b2629f5ba220506b606a101828d20da9fcfa3a7e75b135987260be6d37622fc3f4bf4fd2dfd9655da5ff0c4b02818100d4d797c959f0cf59fa1f65ceec64e32ad189c5daf3ddf9e747d28c8eb15e65e5812bd19896b6a0d1d126fe6cf54a92b5a6c71ef04feed001acb1d253044f2c3716d14f396201e6a30c65bfbb0fd65ebaf61bdb80ffff7c2c3f80dcf69813491907531231700770d0392a1066e411ecd201fce9d98149b32355572b85e889faad028181009d898bc165709d52f7b18f91e6bf508d3ab08ed12df04da0c2d40b7039ce4d72b61299c082c8424cdd7dfff71f13346ec12fac42069cc68e6108f86427012485bfaa6904258e3e5fb9a9a305bf2e3e21087eea94bcce51fabd63650397affd85ed49c1358480b3cfe90ad5234b4dcf555d220d26c9ff765ecfcc94152fd1be070281804bf77b4bae8386772de830cc75f2d1d4b8221b3f817208e08c002ac0549902677e4f0e7bce5ba1b3da74fbbe138758e6853b4a5b7bf0672bc1170c64fa502a5e24e3472db433b4e30761eab6ebb9e207235fd88b97b1b30e14f364b628219d6e17056543a4e29a4de1e41ad37927ce23d0442623744bc35a1874296960029044":exp:27:exp:69
+
+Copy from PSA: valid RSA (OAEP + SHA_512)
+depends_on:0:12:24
+30:hex:"308204a40201000282010100ef24d80f6b7a0f62ab2f750a8370c1c39781abe2f7ae5cbc698ebbc51067af68c8b02e5bfafe0b296a2fdca8ee5327bf3370bd26c529d173c4356d8ad51f606ac730e3be509d8535c9c51927222d6c4e770efec4d9b0bd11410e5e2e01e093700d358aab8292297483c65870ea6d4ca9299f4347790f6223480732726a97b34bb4d53cb3f188e3c97115b029fa9a2cce4c6d935977a90737ac8b2a2c5691ad928b22681ca05ee38ddba2278c854f51281c5e4856090aca59bf719a167e63bb932580ae2b599e1a297194696e637a919bc9d2caf214e59d46ed1a12e591b608f2031744111551430d9ac39082957ae1ce03a88068896701e6ce19a83890ff5761020301000102820100706fb53a02c13fcc9749d7d09a9e002c12e6bfc715c6a00961e3defab74cd896fe8c7f2f75e1cda3aa2e58a400718e65822d0671dd0f5d4ffdb7550a8a4b974c7cdccaa72745f864a2ba0daa6d9247b2d89d6f41644c89883c3b2222a5754e3cc7a91dcaa7b84acf6249763998aeccf558016e638352ad44835006f2ee94e691d0070ce561677f2a22a12f357bd762c57f80f1f4921f0f26b3ed758478d11086c182874355ef5039e8d854291b9ce7f8b284ec81f141b7255313507f5ea159d6b1c0ee176e7743d3c65d536e1e4aaf24089c1e00c8021012b8846a4971a0695030504ace362077e8b2fcb4fbdd70bfb734a3fe7d9e1a25bdd0cb0f2fcb56ecc502818100f8fdfbac1c033911b5a184980d081f700f4d450cebf18cbdc68f160a5abd580e6f8f5800fd0b60521dbe2d549e82617afe70d2ad004c2f45405d94e4418e8c2b8da6bcaa407bbfa5477b5a6fceccfcb99f51c6c16bd17202d997bdcaec83b870e3e101acc05e0754020ec207ef5ec9934ac81cd617af72cd94b2bb400eb2078302818100f5dfe74a548c04950178f50130d5aadbe5d1f4b52527c0bfad9aa0d73731fb24219cb5ea5c4b4fa56133d5ea9225fa7d0ccc9bdcc78b77303a2e73c17e9a46b9b09020604496a849f069d0d87713e06a5d374271b2629f5ba220506b606a101828d20da9fcfa3a7e75b135987260be6d37622fc3f4bf4fd2dfd9655da5ff0c4b02818100d4d797c959f0cf59fa1f65ceec64e32ad189c5daf3ddf9e747d28c8eb15e65e5812bd19896b6a0d1d126fe6cf54a92b5a6c71ef04feed001acb1d253044f2c3716d14f396201e6a30c65bfbb0fd65ebaf61bdb80ffff7c2c3f80dcf69813491907531231700770d0392a1066e411ecd201fce9d98149b32355572b85e889faad028181009d898bc165709d52f7b18f91e6bf508d3ab08ed12df04da0c2d40b7039ce4d72b61299c082c8424cdd7dfff71f13346ec12fac42069cc68e6108f86427012485bfaa6904258e3e5fb9a9a305bf2e3e21087eea94bcce51fabd63650397affd85ed49c1358480b3cfe90ad5234b4dcf555d220d26c9ff765ecfcc94152fd1be070281804bf77b4bae8386772de830cc75f2d1d4b8221b3f817208e08c002ac0549902677e4f0e7bce5ba1b3da74fbbe138758e6853b4a5b7bf0672bc1170c64fa502a5e24e3472db433b4e30761eab6ebb9e207235fd88b97b1b30e14f364b628219d6e17056543a4e29a4de1e41ad37927ce23d0442623744bc35a1874296960029044":exp:27:exp:70
+
+Copy from PSA: valid RSA (PSS_ANY_SALT + ANY_HASH)
+depends_on:0:12:32
+30:hex:"308204a40201000282010100ef24d80f6b7a0f62ab2f750a8370c1c39781abe2f7ae5cbc698ebbc51067af68c8b02e5bfafe0b296a2fdca8ee5327bf3370bd26c529d173c4356d8ad51f606ac730e3be509d8535c9c51927222d6c4e770efec4d9b0bd11410e5e2e01e093700d358aab8292297483c65870ea6d4ca9299f4347790f6223480732726a97b34bb4d53cb3f188e3c97115b029fa9a2cce4c6d935977a90737ac8b2a2c5691ad928b22681ca05ee38ddba2278c854f51281c5e4856090aca59bf719a167e63bb932580ae2b599e1a297194696e637a919bc9d2caf214e59d46ed1a12e591b608f2031744111551430d9ac39082957ae1ce03a88068896701e6ce19a83890ff5761020301000102820100706fb53a02c13fcc9749d7d09a9e002c12e6bfc715c6a00961e3defab74cd896fe8c7f2f75e1cda3aa2e58a400718e65822d0671dd0f5d4ffdb7550a8a4b974c7cdccaa72745f864a2ba0daa6d9247b2d89d6f41644c89883c3b2222a5754e3cc7a91dcaa7b84acf6249763998aeccf558016e638352ad44835006f2ee94e691d0070ce561677f2a22a12f357bd762c57f80f1f4921f0f26b3ed758478d11086c182874355ef5039e8d854291b9ce7f8b284ec81f141b7255313507f5ea159d6b1c0ee176e7743d3c65d536e1e4aaf24089c1e00c8021012b8846a4971a0695030504ace362077e8b2fcb4fbdd70bfb734a3fe7d9e1a25bdd0cb0f2fcb56ecc502818100f8fdfbac1c033911b5a184980d081f700f4d450cebf18cbdc68f160a5abd580e6f8f5800fd0b60521dbe2d549e82617afe70d2ad004c2f45405d94e4418e8c2b8da6bcaa407bbfa5477b5a6fceccfcb99f51c6c16bd17202d997bdcaec83b870e3e101acc05e0754020ec207ef5ec9934ac81cd617af72cd94b2bb400eb2078302818100f5dfe74a548c04950178f50130d5aadbe5d1f4b52527c0bfad9aa0d73731fb24219cb5ea5c4b4fa56133d5ea9225fa7d0ccc9bdcc78b77303a2e73c17e9a46b9b09020604496a849f069d0d87713e06a5d374271b2629f5ba220506b606a101828d20da9fcfa3a7e75b135987260be6d37622fc3f4bf4fd2dfd9655da5ff0c4b02818100d4d797c959f0cf59fa1f65ceec64e32ad189c5daf3ddf9e747d28c8eb15e65e5812bd19896b6a0d1d126fe6cf54a92b5a6c71ef04feed001acb1d253044f2c3716d14f396201e6a30c65bfbb0fd65ebaf61bdb80ffff7c2c3f80dcf69813491907531231700770d0392a1066e411ecd201fce9d98149b32355572b85e889faad028181009d898bc165709d52f7b18f91e6bf508d3ab08ed12df04da0c2d40b7039ce4d72b61299c082c8424cdd7dfff71f13346ec12fac42069cc68e6108f86427012485bfaa6904258e3e5fb9a9a305bf2e3e21087eea94bcce51fabd63650397affd85ed49c1358480b3cfe90ad5234b4dcf555d220d26c9ff765ecfcc94152fd1be070281804bf77b4bae8386772de830cc75f2d1d4b8221b3f817208e08c002ac0549902677e4f0e7bce5ba1b3da74fbbe138758e6853b4a5b7bf0672bc1170c64fa502a5e24e3472db433b4e30761eab6ebb9e207235fd88b97b1b30e14f364b628219d6e17056543a4e29a4de1e41ad37927ce23d0442623744bc35a1874296960029044":exp:27:exp:71
+
+Copy from PSA: valid RSA (PSS_ANY_SALT + SHA_256)
+depends_on:0:12:15
+30:hex:"308204a40201000282010100ef24d80f6b7a0f62ab2f750a8370c1c39781abe2f7ae5cbc698ebbc51067af68c8b02e5bfafe0b296a2fdca8ee5327bf3370bd26c529d173c4356d8ad51f606ac730e3be509d8535c9c51927222d6c4e770efec4d9b0bd11410e5e2e01e093700d358aab8292297483c65870ea6d4ca9299f4347790f6223480732726a97b34bb4d53cb3f188e3c97115b029fa9a2cce4c6d935977a90737ac8b2a2c5691ad928b22681ca05ee38ddba2278c854f51281c5e4856090aca59bf719a167e63bb932580ae2b599e1a297194696e637a919bc9d2caf214e59d46ed1a12e591b608f2031744111551430d9ac39082957ae1ce03a88068896701e6ce19a83890ff5761020301000102820100706fb53a02c13fcc9749d7d09a9e002c12e6bfc715c6a00961e3defab74cd896fe8c7f2f75e1cda3aa2e58a400718e65822d0671dd0f5d4ffdb7550a8a4b974c7cdccaa72745f864a2ba0daa6d9247b2d89d6f41644c89883c3b2222a5754e3cc7a91dcaa7b84acf6249763998aeccf558016e638352ad44835006f2ee94e691d0070ce561677f2a22a12f357bd762c57f80f1f4921f0f26b3ed758478d11086c182874355ef5039e8d854291b9ce7f8b284ec81f141b7255313507f5ea159d6b1c0ee176e7743d3c65d536e1e4aaf24089c1e00c8021012b8846a4971a0695030504ace362077e8b2fcb4fbdd70bfb734a3fe7d9e1a25bdd0cb0f2fcb56ecc502818100f8fdfbac1c033911b5a184980d081f700f4d450cebf18cbdc68f160a5abd580e6f8f5800fd0b60521dbe2d549e82617afe70d2ad004c2f45405d94e4418e8c2b8da6bcaa407bbfa5477b5a6fceccfcb99f51c6c16bd17202d997bdcaec83b870e3e101acc05e0754020ec207ef5ec9934ac81cd617af72cd94b2bb400eb2078302818100f5dfe74a548c04950178f50130d5aadbe5d1f4b52527c0bfad9aa0d73731fb24219cb5ea5c4b4fa56133d5ea9225fa7d0ccc9bdcc78b77303a2e73c17e9a46b9b09020604496a849f069d0d87713e06a5d374271b2629f5ba220506b606a101828d20da9fcfa3a7e75b135987260be6d37622fc3f4bf4fd2dfd9655da5ff0c4b02818100d4d797c959f0cf59fa1f65ceec64e32ad189c5daf3ddf9e747d28c8eb15e65e5812bd19896b6a0d1d126fe6cf54a92b5a6c71ef04feed001acb1d253044f2c3716d14f396201e6a30c65bfbb0fd65ebaf61bdb80ffff7c2c3f80dcf69813491907531231700770d0392a1066e411ecd201fce9d98149b32355572b85e889faad028181009d898bc165709d52f7b18f91e6bf508d3ab08ed12df04da0c2d40b7039ce4d72b61299c082c8424cdd7dfff71f13346ec12fac42069cc68e6108f86427012485bfaa6904258e3e5fb9a9a305bf2e3e21087eea94bcce51fabd63650397affd85ed49c1358480b3cfe90ad5234b4dcf555d220d26c9ff765ecfcc94152fd1be070281804bf77b4bae8386772de830cc75f2d1d4b8221b3f817208e08c002ac0549902677e4f0e7bce5ba1b3da74fbbe138758e6853b4a5b7bf0672bc1170c64fa502a5e24e3472db433b4e30761eab6ebb9e207235fd88b97b1b30e14f364b628219d6e17056543a4e29a4de1e41ad37927ce23d0442623744bc35a1874296960029044":exp:27:exp:80
+
+Copy from PSA: valid RSA (PSS_ANY_SALT + SHA_512)
+depends_on:0:12:24
+30:hex:"308204a40201000282010100ef24d80f6b7a0f62ab2f750a8370c1c39781abe2f7ae5cbc698ebbc51067af68c8b02e5bfafe0b296a2fdca8ee5327bf3370bd26c529d173c4356d8ad51f606ac730e3be509d8535c9c51927222d6c4e770efec4d9b0bd11410e5e2e01e093700d358aab8292297483c65870ea6d4ca9299f4347790f6223480732726a97b34bb4d53cb3f188e3c97115b029fa9a2cce4c6d935977a90737ac8b2a2c5691ad928b22681ca05ee38ddba2278c854f51281c5e4856090aca59bf719a167e63bb932580ae2b599e1a297194696e637a919bc9d2caf214e59d46ed1a12e591b608f2031744111551430d9ac39082957ae1ce03a88068896701e6ce19a83890ff5761020301000102820100706fb53a02c13fcc9749d7d09a9e002c12e6bfc715c6a00961e3defab74cd896fe8c7f2f75e1cda3aa2e58a400718e65822d0671dd0f5d4ffdb7550a8a4b974c7cdccaa72745f864a2ba0daa6d9247b2d89d6f41644c89883c3b2222a5754e3cc7a91dcaa7b84acf6249763998aeccf558016e638352ad44835006f2ee94e691d0070ce561677f2a22a12f357bd762c57f80f1f4921f0f26b3ed758478d11086c182874355ef5039e8d854291b9ce7f8b284ec81f141b7255313507f5ea159d6b1c0ee176e7743d3c65d536e1e4aaf24089c1e00c8021012b8846a4971a0695030504ace362077e8b2fcb4fbdd70bfb734a3fe7d9e1a25bdd0cb0f2fcb56ecc502818100f8fdfbac1c033911b5a184980d081f700f4d450cebf18cbdc68f160a5abd580e6f8f5800fd0b60521dbe2d549e82617afe70d2ad004c2f45405d94e4418e8c2b8da6bcaa407bbfa5477b5a6fceccfcb99f51c6c16bd17202d997bdcaec83b870e3e101acc05e0754020ec207ef5ec9934ac81cd617af72cd94b2bb400eb2078302818100f5dfe74a548c04950178f50130d5aadbe5d1f4b52527c0bfad9aa0d73731fb24219cb5ea5c4b4fa56133d5ea9225fa7d0ccc9bdcc78b77303a2e73c17e9a46b9b09020604496a849f069d0d87713e06a5d374271b2629f5ba220506b606a101828d20da9fcfa3a7e75b135987260be6d37622fc3f4bf4fd2dfd9655da5ff0c4b02818100d4d797c959f0cf59fa1f65ceec64e32ad189c5daf3ddf9e747d28c8eb15e65e5812bd19896b6a0d1d126fe6cf54a92b5a6c71ef04feed001acb1d253044f2c3716d14f396201e6a30c65bfbb0fd65ebaf61bdb80ffff7c2c3f80dcf69813491907531231700770d0392a1066e411ecd201fce9d98149b32355572b85e889faad028181009d898bc165709d52f7b18f91e6bf508d3ab08ed12df04da0c2d40b7039ce4d72b61299c082c8424cdd7dfff71f13346ec12fac42069cc68e6108f86427012485bfaa6904258e3e5fb9a9a305bf2e3e21087eea94bcce51fabd63650397affd85ed49c1358480b3cfe90ad5234b4dcf555d220d26c9ff765ecfcc94152fd1be070281804bf77b4bae8386772de830cc75f2d1d4b8221b3f817208e08c002ac0549902677e4f0e7bce5ba1b3da74fbbe138758e6853b4a5b7bf0672bc1170c64fa502a5e24e3472db433b4e30761eab6ebb9e207235fd88b97b1b30e14f364b628219d6e17056543a4e29a4de1e41ad37927ce23d0442623744bc35a1874296960029044":exp:27:exp:110
+
+Copy from PSA: valid RSA (PSS + ANY_HASH)
+depends_on:0:12:32
+30:hex:"308204a40201000282010100ef24d80f6b7a0f62ab2f750a8370c1c39781abe2f7ae5cbc698ebbc51067af68c8b02e5bfafe0b296a2fdca8ee5327bf3370bd26c529d173c4356d8ad51f606ac730e3be509d8535c9c51927222d6c4e770efec4d9b0bd11410e5e2e01e093700d358aab8292297483c65870ea6d4ca9299f4347790f6223480732726a97b34bb4d53cb3f188e3c97115b029fa9a2cce4c6d935977a90737ac8b2a2c5691ad928b22681ca05ee38ddba2278c854f51281c5e4856090aca59bf719a167e63bb932580ae2b599e1a297194696e637a919bc9d2caf214e59d46ed1a12e591b608f2031744111551430d9ac39082957ae1ce03a88068896701e6ce19a83890ff5761020301000102820100706fb53a02c13fcc9749d7d09a9e002c12e6bfc715c6a00961e3defab74cd896fe8c7f2f75e1cda3aa2e58a400718e65822d0671dd0f5d4ffdb7550a8a4b974c7cdccaa72745f864a2ba0daa6d9247b2d89d6f41644c89883c3b2222a5754e3cc7a91dcaa7b84acf6249763998aeccf558016e638352ad44835006f2ee94e691d0070ce561677f2a22a12f357bd762c57f80f1f4921f0f26b3ed758478d11086c182874355ef5039e8d854291b9ce7f8b284ec81f141b7255313507f5ea159d6b1c0ee176e7743d3c65d536e1e4aaf24089c1e00c8021012b8846a4971a0695030504ace362077e8b2fcb4fbdd70bfb734a3fe7d9e1a25bdd0cb0f2fcb56ecc502818100f8fdfbac1c033911b5a184980d081f700f4d450cebf18cbdc68f160a5abd580e6f8f5800fd0b60521dbe2d549e82617afe70d2ad004c2f45405d94e4418e8c2b8da6bcaa407bbfa5477b5a6fceccfcb99f51c6c16bd17202d997bdcaec83b870e3e101acc05e0754020ec207ef5ec9934ac81cd617af72cd94b2bb400eb2078302818100f5dfe74a548c04950178f50130d5aadbe5d1f4b52527c0bfad9aa0d73731fb24219cb5ea5c4b4fa56133d5ea9225fa7d0ccc9bdcc78b77303a2e73c17e9a46b9b09020604496a849f069d0d87713e06a5d374271b2629f5ba220506b606a101828d20da9fcfa3a7e75b135987260be6d37622fc3f4bf4fd2dfd9655da5ff0c4b02818100d4d797c959f0cf59fa1f65ceec64e32ad189c5daf3ddf9e747d28c8eb15e65e5812bd19896b6a0d1d126fe6cf54a92b5a6c71ef04feed001acb1d253044f2c3716d14f396201e6a30c65bfbb0fd65ebaf61bdb80ffff7c2c3f80dcf69813491907531231700770d0392a1066e411ecd201fce9d98149b32355572b85e889faad028181009d898bc165709d52f7b18f91e6bf508d3ab08ed12df04da0c2d40b7039ce4d72b61299c082c8424cdd7dfff71f13346ec12fac42069cc68e6108f86427012485bfaa6904258e3e5fb9a9a305bf2e3e21087eea94bcce51fabd63650397affd85ed49c1358480b3cfe90ad5234b4dcf555d220d26c9ff765ecfcc94152fd1be070281804bf77b4bae8386772de830cc75f2d1d4b8221b3f817208e08c002ac0549902677e4f0e7bce5ba1b3da74fbbe138758e6853b4a5b7bf0672bc1170c64fa502a5e24e3472db433b4e30761eab6ebb9e207235fd88b97b1b30e14f364b628219d6e17056543a4e29a4de1e41ad37927ce23d0442623744bc35a1874296960029044":exp:27:exp:31
+
+Copy from PSA: valid RSA (PSS + SHA_256)
+depends_on:0:12:15
+30:hex:"308204a40201000282010100ef24d80f6b7a0f62ab2f750a8370c1c39781abe2f7ae5cbc698ebbc51067af68c8b02e5bfafe0b296a2fdca8ee5327bf3370bd26c529d173c4356d8ad51f606ac730e3be509d8535c9c51927222d6c4e770efec4d9b0bd11410e5e2e01e093700d358aab8292297483c65870ea6d4ca9299f4347790f6223480732726a97b34bb4d53cb3f188e3c97115b029fa9a2cce4c6d935977a90737ac8b2a2c5691ad928b22681ca05ee38ddba2278c854f51281c5e4856090aca59bf719a167e63bb932580ae2b599e1a297194696e637a919bc9d2caf214e59d46ed1a12e591b608f2031744111551430d9ac39082957ae1ce03a88068896701e6ce19a83890ff5761020301000102820100706fb53a02c13fcc9749d7d09a9e002c12e6bfc715c6a00961e3defab74cd896fe8c7f2f75e1cda3aa2e58a400718e65822d0671dd0f5d4ffdb7550a8a4b974c7cdccaa72745f864a2ba0daa6d9247b2d89d6f41644c89883c3b2222a5754e3cc7a91dcaa7b84acf6249763998aeccf558016e638352ad44835006f2ee94e691d0070ce561677f2a22a12f357bd762c57f80f1f4921f0f26b3ed758478d11086c182874355ef5039e8d854291b9ce7f8b284ec81f141b7255313507f5ea159d6b1c0ee176e7743d3c65d536e1e4aaf24089c1e00c8021012b8846a4971a0695030504ace362077e8b2fcb4fbdd70bfb734a3fe7d9e1a25bdd0cb0f2fcb56ecc502818100f8fdfbac1c033911b5a184980d081f700f4d450cebf18cbdc68f160a5abd580e6f8f5800fd0b60521dbe2d549e82617afe70d2ad004c2f45405d94e4418e8c2b8da6bcaa407bbfa5477b5a6fceccfcb99f51c6c16bd17202d997bdcaec83b870e3e101acc05e0754020ec207ef5ec9934ac81cd617af72cd94b2bb400eb2078302818100f5dfe74a548c04950178f50130d5aadbe5d1f4b52527c0bfad9aa0d73731fb24219cb5ea5c4b4fa56133d5ea9225fa7d0ccc9bdcc78b77303a2e73c17e9a46b9b09020604496a849f069d0d87713e06a5d374271b2629f5ba220506b606a101828d20da9fcfa3a7e75b135987260be6d37622fc3f4bf4fd2dfd9655da5ff0c4b02818100d4d797c959f0cf59fa1f65ceec64e32ad189c5daf3ddf9e747d28c8eb15e65e5812bd19896b6a0d1d126fe6cf54a92b5a6c71ef04feed001acb1d253044f2c3716d14f396201e6a30c65bfbb0fd65ebaf61bdb80ffff7c2c3f80dcf69813491907531231700770d0392a1066e411ecd201fce9d98149b32355572b85e889faad028181009d898bc165709d52f7b18f91e6bf508d3ab08ed12df04da0c2d40b7039ce4d72b61299c082c8424cdd7dfff71f13346ec12fac42069cc68e6108f86427012485bfaa6904258e3e5fb9a9a305bf2e3e21087eea94bcce51fabd63650397affd85ed49c1358480b3cfe90ad5234b4dcf555d220d26c9ff765ecfcc94152fd1be070281804bf77b4bae8386772de830cc75f2d1d4b8221b3f817208e08c002ac0549902677e4f0e7bce5ba1b3da74fbbe138758e6853b4a5b7bf0672bc1170c64fa502a5e24e3472db433b4e30761eab6ebb9e207235fd88b97b1b30e14f364b628219d6e17056543a4e29a4de1e41ad37927ce23d0442623744bc35a1874296960029044":exp:27:exp:21
+
+Copy from PSA: valid RSA (PSS + SHA_512)
+depends_on:0:12:24
+30:hex:"308204a40201000282010100ef24d80f6b7a0f62ab2f750a8370c1c39781abe2f7ae5cbc698ebbc51067af68c8b02e5bfafe0b296a2fdca8ee5327bf3370bd26c529d173c4356d8ad51f606ac730e3be509d8535c9c51927222d6c4e770efec4d9b0bd11410e5e2e01e093700d358aab8292297483c65870ea6d4ca9299f4347790f6223480732726a97b34bb4d53cb3f188e3c97115b029fa9a2cce4c6d935977a90737ac8b2a2c5691ad928b22681ca05ee38ddba2278c854f51281c5e4856090aca59bf719a167e63bb932580ae2b599e1a297194696e637a919bc9d2caf214e59d46ed1a12e591b608f2031744111551430d9ac39082957ae1ce03a88068896701e6ce19a83890ff5761020301000102820100706fb53a02c13fcc9749d7d09a9e002c12e6bfc715c6a00961e3defab74cd896fe8c7f2f75e1cda3aa2e58a400718e65822d0671dd0f5d4ffdb7550a8a4b974c7cdccaa72745f864a2ba0daa6d9247b2d89d6f41644c89883c3b2222a5754e3cc7a91dcaa7b84acf6249763998aeccf558016e638352ad44835006f2ee94e691d0070ce561677f2a22a12f357bd762c57f80f1f4921f0f26b3ed758478d11086c182874355ef5039e8d854291b9ce7f8b284ec81f141b7255313507f5ea159d6b1c0ee176e7743d3c65d536e1e4aaf24089c1e00c8021012b8846a4971a0695030504ace362077e8b2fcb4fbdd70bfb734a3fe7d9e1a25bdd0cb0f2fcb56ecc502818100f8fdfbac1c033911b5a184980d081f700f4d450cebf18cbdc68f160a5abd580e6f8f5800fd0b60521dbe2d549e82617afe70d2ad004c2f45405d94e4418e8c2b8da6bcaa407bbfa5477b5a6fceccfcb99f51c6c16bd17202d997bdcaec83b870e3e101acc05e0754020ec207ef5ec9934ac81cd617af72cd94b2bb400eb2078302818100f5dfe74a548c04950178f50130d5aadbe5d1f4b52527c0bfad9aa0d73731fb24219cb5ea5c4b4fa56133d5ea9225fa7d0ccc9bdcc78b77303a2e73c17e9a46b9b09020604496a849f069d0d87713e06a5d374271b2629f5ba220506b606a101828d20da9fcfa3a7e75b135987260be6d37622fc3f4bf4fd2dfd9655da5ff0c4b02818100d4d797c959f0cf59fa1f65ceec64e32ad189c5daf3ddf9e747d28c8eb15e65e5812bd19896b6a0d1d126fe6cf54a92b5a6c71ef04feed001acb1d253044f2c3716d14f396201e6a30c65bfbb0fd65ebaf61bdb80ffff7c2c3f80dcf69813491907531231700770d0392a1066e411ecd201fce9d98149b32355572b85e889faad028181009d898bc165709d52f7b18f91e6bf508d3ab08ed12df04da0c2d40b7039ce4d72b61299c082c8424cdd7dfff71f13346ec12fac42069cc68e6108f86427012485bfaa6904258e3e5fb9a9a305bf2e3e21087eea94bcce51fabd63650397affd85ed49c1358480b3cfe90ad5234b4dcf555d220d26c9ff765ecfcc94152fd1be070281804bf77b4bae8386772de830cc75f2d1d4b8221b3f817208e08c002ac0549902677e4f0e7bce5ba1b3da74fbbe138758e6853b4a5b7bf0672bc1170c64fa502a5e24e3472db433b4e30761eab6ebb9e207235fd88b97b1b30e14f364b628219d6e17056543a4e29a4de1e41ad37927ce23d0442623744bc35a1874296960029044":exp:27:exp:111
+
+Copy from PSA: valid RSA, PSA_ALG_NONE
+depends_on:0:32
+30:hex:"308204a40201000282010100ef24d80f6b7a0f62ab2f750a8370c1c39781abe2f7ae5cbc698ebbc51067af68c8b02e5bfafe0b296a2fdca8ee5327bf3370bd26c529d173c4356d8ad51f606ac730e3be509d8535c9c51927222d6c4e770efec4d9b0bd11410e5e2e01e093700d358aab8292297483c65870ea6d4ca9299f4347790f6223480732726a97b34bb4d53cb3f188e3c97115b029fa9a2cce4c6d935977a90737ac8b2a2c5691ad928b22681ca05ee38ddba2278c854f51281c5e4856090aca59bf719a167e63bb932580ae2b599e1a297194696e637a919bc9d2caf214e59d46ed1a12e591b608f2031744111551430d9ac39082957ae1ce03a88068896701e6ce19a83890ff5761020301000102820100706fb53a02c13fcc9749d7d09a9e002c12e6bfc715c6a00961e3defab74cd896fe8c7f2f75e1cda3aa2e58a400718e65822d0671dd0f5d4ffdb7550a8a4b974c7cdccaa72745f864a2ba0daa6d9247b2d89d6f41644c89883c3b2222a5754e3cc7a91dcaa7b84acf6249763998aeccf558016e638352ad44835006f2ee94e691d0070ce561677f2a22a12f357bd762c57f80f1f4921f0f26b3ed758478d11086c182874355ef5039e8d854291b9ce7f8b284ec81f141b7255313507f5ea159d6b1c0ee176e7743d3c65d536e1e4aaf24089c1e00c8021012b8846a4971a0695030504ace362077e8b2fcb4fbdd70bfb734a3fe7d9e1a25bdd0cb0f2fcb56ecc502818100f8fdfbac1c033911b5a184980d081f700f4d450cebf18cbdc68f160a5abd580e6f8f5800fd0b60521dbe2d549e82617afe70d2ad004c2f45405d94e4418e8c2b8da6bcaa407bbfa5477b5a6fceccfcb99f51c6c16bd17202d997bdcaec83b870e3e101acc05e0754020ec207ef5ec9934ac81cd617af72cd94b2bb400eb2078302818100f5dfe74a548c04950178f50130d5aadbe5d1f4b52527c0bfad9aa0d73731fb24219cb5ea5c4b4fa56133d5ea9225fa7d0ccc9bdcc78b77303a2e73c17e9a46b9b09020604496a849f069d0d87713e06a5d374271b2629f5ba220506b606a101828d20da9fcfa3a7e75b135987260be6d37622fc3f4bf4fd2dfd9655da5ff0c4b02818100d4d797c959f0cf59fa1f65ceec64e32ad189c5daf3ddf9e747d28c8eb15e65e5812bd19896b6a0d1d126fe6cf54a92b5a6c71ef04feed001acb1d253044f2c3716d14f396201e6a30c65bfbb0fd65ebaf61bdb80ffff7c2c3f80dcf69813491907531231700770d0392a1066e411ecd201fce9d98149b32355572b85e889faad028181009d898bc165709d52f7b18f91e6bf508d3ab08ed12df04da0c2d40b7039ce4d72b61299c082c8424cdd7dfff71f13346ec12fac42069cc68e6108f86427012485bfaa6904258e3e5fb9a9a305bf2e3e21087eea94bcce51fabd63650397affd85ed49c1358480b3cfe90ad5234b4dcf555d220d26c9ff765ecfcc94152fd1be070281804bf77b4bae8386772de830cc75f2d1d4b8221b3f817208e08c002ac0549902677e4f0e7bce5ba1b3da74fbbe138758e6853b4a5b7bf0672bc1170c64fa502a5e24e3472db433b4e30761eab6ebb9e207235fd88b97b1b30e14f364b628219d6e17056543a4e29a4de1e41ad37927ce23d0442623744bc35a1874296960029044":exp:27:exp:17
+
+Copy from PSA: valid RSA, wrong alg (CMAC)
+depends_on:0:32
+30:hex:"308204a40201000282010100ef24d80f6b7a0f62ab2f750a8370c1c39781abe2f7ae5cbc698ebbc51067af68c8b02e5bfafe0b296a2fdca8ee5327bf3370bd26c529d173c4356d8ad51f606ac730e3be509d8535c9c51927222d6c4e770efec4d9b0bd11410e5e2e01e093700d358aab8292297483c65870ea6d4ca9299f4347790f6223480732726a97b34bb4d53cb3f188e3c97115b029fa9a2cce4c6d935977a90737ac8b2a2c5691ad928b22681ca05ee38ddba2278c854f51281c5e4856090aca59bf719a167e63bb932580ae2b599e1a297194696e637a919bc9d2caf214e59d46ed1a12e591b608f2031744111551430d9ac39082957ae1ce03a88068896701e6ce19a83890ff5761020301000102820100706fb53a02c13fcc9749d7d09a9e002c12e6bfc715c6a00961e3defab74cd896fe8c7f2f75e1cda3aa2e58a400718e65822d0671dd0f5d4ffdb7550a8a4b974c7cdccaa72745f864a2ba0daa6d9247b2d89d6f41644c89883c3b2222a5754e3cc7a91dcaa7b84acf6249763998aeccf558016e638352ad44835006f2ee94e691d0070ce561677f2a22a12f357bd762c57f80f1f4921f0f26b3ed758478d11086c182874355ef5039e8d854291b9ce7f8b284ec81f141b7255313507f5ea159d6b1c0ee176e7743d3c65d536e1e4aaf24089c1e00c8021012b8846a4971a0695030504ace362077e8b2fcb4fbdd70bfb734a3fe7d9e1a25bdd0cb0f2fcb56ecc502818100f8fdfbac1c033911b5a184980d081f700f4d450cebf18cbdc68f160a5abd580e6f8f5800fd0b60521dbe2d549e82617afe70d2ad004c2f45405d94e4418e8c2b8da6bcaa407bbfa5477b5a6fceccfcb99f51c6c16bd17202d997bdcaec83b870e3e101acc05e0754020ec207ef5ec9934ac81cd617af72cd94b2bb400eb2078302818100f5dfe74a548c04950178f50130d5aadbe5d1f4b52527c0bfad9aa0d73731fb24219cb5ea5c4b4fa56133d5ea9225fa7d0ccc9bdcc78b77303a2e73c17e9a46b9b09020604496a849f069d0d87713e06a5d374271b2629f5ba220506b606a101828d20da9fcfa3a7e75b135987260be6d37622fc3f4bf4fd2dfd9655da5ff0c4b02818100d4d797c959f0cf59fa1f65ceec64e32ad189c5daf3ddf9e747d28c8eb15e65e5812bd19896b6a0d1d126fe6cf54a92b5a6c71ef04feed001acb1d253044f2c3716d14f396201e6a30c65bfbb0fd65ebaf61bdb80ffff7c2c3f80dcf69813491907531231700770d0392a1066e411ecd201fce9d98149b32355572b85e889faad028181009d898bc165709d52f7b18f91e6bf508d3ab08ed12df04da0c2d40b7039ce4d72b61299c082c8424cdd7dfff71f13346ec12fac42069cc68e6108f86427012485bfaa6904258e3e5fb9a9a305bf2e3e21087eea94bcce51fabd63650397affd85ed49c1358480b3cfe90ad5234b4dcf555d220d26c9ff765ecfcc94152fd1be070281804bf77b4bae8386772de830cc75f2d1d4b8221b3f817208e08c002ac0549902677e4f0e7bce5ba1b3da74fbbe138758e6853b4a5b7bf0672bc1170c64fa502a5e24e3472db433b4e30761eab6ebb9e207235fd88b97b1b30e14f364b628219d6e17056543a4e29a4de1e41ad37927ce23d0442623744bc35a1874296960029044":exp:27:exp:108
+
+Copy from PSA: non-exportable -> public, RSA
+depends_on:0
+31:hex:"308204a40201000282010100ef24d80f6b7a0f62ab2f750a8370c1c39781abe2f7ae5cbc698ebbc51067af68c8b02e5bfafe0b296a2fdca8ee5327bf3370bd26c529d173c4356d8ad51f606ac730e3be509d8535c9c51927222d6c4e770efec4d9b0bd11410e5e2e01e093700d358aab8292297483c65870ea6d4ca9299f4347790f6223480732726a97b34bb4d53cb3f188e3c97115b029fa9a2cce4c6d935977a90737ac8b2a2c5691ad928b22681ca05ee38ddba2278c854f51281c5e4856090aca59bf719a167e63bb932580ae2b599e1a297194696e637a919bc9d2caf214e59d46ed1a12e591b608f2031744111551430d9ac39082957ae1ce03a88068896701e6ce19a83890ff5761020301000102820100706fb53a02c13fcc9749d7d09a9e002c12e6bfc715c6a00961e3defab74cd896fe8c7f2f75e1cda3aa2e58a400718e65822d0671dd0f5d4ffdb7550a8a4b974c7cdccaa72745f864a2ba0daa6d9247b2d89d6f41644c89883c3b2222a5754e3cc7a91dcaa7b84acf6249763998aeccf558016e638352ad44835006f2ee94e691d0070ce561677f2a22a12f357bd762c57f80f1f4921f0f26b3ed758478d11086c182874355ef5039e8d854291b9ce7f8b284ec81f141b7255313507f5ea159d6b1c0ee176e7743d3c65d536e1e4aaf24089c1e00c8021012b8846a4971a0695030504ace362077e8b2fcb4fbdd70bfb734a3fe7d9e1a25bdd0cb0f2fcb56ecc502818100f8fdfbac1c033911b5a184980d081f700f4d450cebf18cbdc68f160a5abd580e6f8f5800fd0b60521dbe2d549e82617afe70d2ad004c2f45405d94e4418e8c2b8da6bcaa407bbfa5477b5a6fceccfcb99f51c6c16bd17202d997bdcaec83b870e3e101acc05e0754020ec207ef5ec9934ac81cd617af72cd94b2bb400eb2078302818100f5dfe74a548c04950178f50130d5aadbe5d1f4b52527c0bfad9aa0d73731fb24219cb5ea5c4b4fa56133d5ea9225fa7d0ccc9bdcc78b77303a2e73c17e9a46b9b09020604496a849f069d0d87713e06a5d374271b2629f5ba220506b606a101828d20da9fcfa3a7e75b135987260be6d37622fc3f4bf4fd2dfd9655da5ff0c4b02818100d4d797c959f0cf59fa1f65ceec64e32ad189c5daf3ddf9e747d28c8eb15e65e5812bd19896b6a0d1d126fe6cf54a92b5a6c71ef04feed001acb1d253044f2c3716d14f396201e6a30c65bfbb0fd65ebaf61bdb80ffff7c2c3f80dcf69813491907531231700770d0392a1066e411ecd201fce9d98149b32355572b85e889faad028181009d898bc165709d52f7b18f91e6bf508d3ab08ed12df04da0c2d40b7039ce4d72b61299c082c8424cdd7dfff71f13346ec12fac42069cc68e6108f86427012485bfaa6904258e3e5fb9a9a305bf2e3e21087eea94bcce51fabd63650397affd85ed49c1358480b3cfe90ad5234b4dcf555d220d26c9ff765ecfcc94152fd1be070281804bf77b4bae8386772de830cc75f2d1d4b8221b3f817208e08c002ac0549902677e4f0e7bce5ba1b3da74fbbe138758e6853b4a5b7bf0672bc1170c64fa502a5e24e3472db433b4e30761eab6ebb9e207235fd88b97b1b30e14f364b628219d6e17056543a4e29a4de1e41ad37927ce23d0442623744bc35a1874296960029044":exp:27
+
+Copy from PSA: non-exportable -> public, SECP_R1_256
+depends_on:1:6
+31:hex:"587CF7C57EB7C6254CBF80CC59846521B4FBCBA8BC4B362A9B043F0DEB49CCA1":exp:14
+
+Copy from PSA: non-exportable -> public, Curve25519
+depends_on:1:3
+31:hex:"a546e36bf0527c9d3b16154b82465edd62144c0ac1fc5a18506a2244ba449ac4":exp:112
+

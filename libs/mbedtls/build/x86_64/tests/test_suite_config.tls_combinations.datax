@@ -1,0 +1,8 @@
+Config: TLS 1.2 without TLS 1.3
+depends_on:0:1
+0
+
+Config: TLS 1.3 without TLS 1.2
+depends_on:2:3
+0
+

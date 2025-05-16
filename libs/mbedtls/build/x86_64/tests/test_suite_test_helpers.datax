@@ -1,0 +1,24 @@
+Memory poison+unpoison: offset=0 len=42
+0:int:0:int:42
+
+Memory poison+unpoison: offset=0 len=1
+0:int:0:int:1
+
+Memory poison+unpoison: offset=0 len=2
+0:int:0:int:2
+
+Memory poison+unpoison: offset=1 len=1
+0:int:1:int:1
+
+Memory poison+unpoison: offset=1 len=2
+0:int:1:int:2
+
+Memory poison+unpoison: offset=7 len=1
+0:int:7:int:1
+
+Memory poison+unpoison: offset=7 len=2
+0:int:7:int:2
+
+Memory poison+unpoison: offset=0 len=0
+0:int:0:int:0
+

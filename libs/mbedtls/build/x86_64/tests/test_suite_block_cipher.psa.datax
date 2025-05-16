@@ -1,0 +1,36 @@
+AES - legacy only
+depends_on:0:1
+2:exp:0:int:0:exp:1
+
+AES - driver only
+depends_on:2:3
+2:exp:0:exp:2:exp:3
+
+AES - legacy + driver
+depends_on:0:3
+2:exp:0:int:0:exp:3
+
+ARIA - legacy only
+depends_on:4:5
+2:exp:4:int:0:exp:1
+
+ARIA - driver only
+depends_on:6:7
+2:exp:4:exp:2:exp:3
+
+ARIA - legacy + driver
+depends_on:4:7
+2:exp:4:int:0:exp:3
+
+Camellia - legacy only
+depends_on:8:9
+2:exp:5:int:0:exp:1
+
+Camellia - driver only
+depends_on:10:11
+2:exp:5:exp:2:exp:3
+
+Camellia - legacy + driver
+depends_on:8:11
+2:exp:5:int:0:exp:3
+
